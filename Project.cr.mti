@@ -1,0 +1,113 @@
+{D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/ALSU.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/ALSU.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/OneOpMapper.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/OneOpMapper.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/TwoOpMapper.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/TwoOpMapper.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/decoder.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/decoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/tristate.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/tristate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Cin1op.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Cin1op.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/genericDecoder.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/genericDecoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Cin2op.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Cin2op.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Decoder2_4.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Decoder2_4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/RegisterFile.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/RegisterFile.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Register.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Register.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/NBitAdder.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/NBitAdder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/my_adder.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/my_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/BranchCondition.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/BranchCondition.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/ROM.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/ROM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} D:/CMP/ModelSim/modelsim_ase/win32aloem/genericDecoder.vhd {0 {vcom -work work -2002 -explicit -stats=none D:/CMP/ModelSim/modelsim_ase/win32aloem/genericDecoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_A.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_A.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/RAM.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/RAM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_B.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_B.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/DecodingCircuit.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/DecodingCircuit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_C.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_C.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/ROMController.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/ROMController.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_D.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_D.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} decoderProject.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoderProject.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} D:/CMP/ModelSim/modelsim_ase/win32aloem/SrcDstDecoder.vhd {0 {vcom -work work -2002 -explicit -stats=none D:/CMP/ModelSim/modelsim_ase/win32aloem/SrcDstDecoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/mux2.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/mux2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/CinGen.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/CinGen.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Controller.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}}

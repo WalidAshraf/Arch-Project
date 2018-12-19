@@ -7,9 +7,10 @@ GENERIC(addressBits: integer :=16;
 	registers: integer :=8;
 	wordSize: integer :=16);
 PORT(MAR_A, MAR_B, MAR_C, MDR_C, MDR_B, MDR_A_Out, src_enA, src_enB, dst_en, rst, clk, we, mem_clk, temp_B_Out, temp_enC,temp_A_Out, IR_enC, 
-	IR_A_Out,ALSU_S0,ALSU_S1,ALSU_S2,ALSU_S3: in std_logic;
+	IR_A_Out,ALSU_S0,ALSU_S1,ALSU_S2,ALSU_S3,cIN: in std_logic;
+     Cout: OUT STD_LOGIC;
      busA,busB: inout std_logic_vector(wordSize - 1 downto 0);
-     busC:in std_logic_vector(wordSize -1 downto 0);
+     busC:INOUT std_logic_vector(wordSize -1 downto 0);
      src, dst: std_logic_vector(integer(ceil(log2(real(registers))))-1 downto 0));
 END Controller;
 
@@ -21,9 +22,8 @@ SIGNAL MDR_D, MAR_D: std_logic_vector(addressBits - 1 downto 0);
 BEGIN
 	GenReg: ENTITY work.RegFile GENERIC MAP(registers,wordSize) 
 				    PORT MAP(busA,busB,busC, dst_en, src_enA,src_enB, rst, clk, src, dst);
-	ALU: ENTITY work.ALSU PORT MAP(busA,busB,ALSU_S0,ALSU_S1,ALSU_S2,ALSU_S3,Cout,busC); -- should the ALU out a carryout then the flag register be set with it or should the alu set it internally
-	CinGen: ENTITY work.CinGen PORT MAP(IR_Q,flagCarry,oneOp,twoOp,cinGenOut);-- ALSU/CinGen/decoder has inputs/outputs that isnot fully created
-	ROMDecoder: ENTITY work.decoder PORT MAP(romIn,);
+	ALU: ENTITY work.ALSU PORT MAP(busA,busB,ALSU_S0,ALSU_S1,ALSU_S2,ALSU_S3,Cin,Cout,busC); -- should the ALU out a carryout then the flag register be set with it or should the alu set it internally
+
 	MDR: ENTITY work.MyRegister GENERIC MAP(wordSize)
 				    PORT MAP(MDR_D, MDRen, clk, rst, MDR_Q);
 	MAR: ENTITY work.MyRegister GENERIC MAP(wordSize)

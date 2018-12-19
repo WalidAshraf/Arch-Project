@@ -22,6 +22,7 @@ SIGNAL MicroPC: std_logic_vector(ROMAddressBits - 1 downto 0) := (others => '0')
 SIGNAL NextMicroPC: std_logic_vector(ROMAddressBits - 1 downto 0) := (others => '0');
 SIGNAL Clock: std_logic := '0';
 SIGNAL rst: std_logic := '1';
+SIGNAL cinController: STD_LOGIC;
 BEGIN
 	PROCESS
 	BEGIN

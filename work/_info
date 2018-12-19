@@ -1,0 +1,1093 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/CMP/ModelSim/modelsim_ase/win32aloem
+Ealsu
+Z0 w1545217161
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project
+Z4 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ALSU.vhd
+Z5 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ALSU.vhd
+l0
+L3
+VOHd1:LNJUlOD@QORC>hI?0
+!s100 MB4CQ]SVLXKeGzf:VLlm]2
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1545226175
+!i10b 1
+Z8 !s108 1545226175.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ALSU.vhd|
+Z10 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ALSU.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+Z13 DEx4 work 4 alsu 0 22 OHd1:LNJUlOD@QORC>hI?0
+l45
+L10
+V>LlLkKncifUgi@?I8AdaD0
+!s100 Oi:zXH<kAn4EdM7;7Lgd^3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ebranchcondition
+R0
+R1
+R2
+R3
+Z14 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/BranchCondition.vhd
+Z15 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/BranchCondition.vhd
+l0
+L3
+Vn1lAL`P3X^=[EYjmOO3;[0
+!s100 6D55hh[l]OJe^8k_7WgYb3
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/BranchCondition.vhd|
+Z17 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/BranchCondition.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+DEx4 work 15 branchcondition 0 22 n1lAL`P3X^=[EYjmOO3;[0
+l11
+L9
+VHAG;:HE0Dj<nL3oZ]X2l30
+!s100 @YB3zCklc0S>gc]3Nn14E3
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Ecin1op
+R0
+R1
+R2
+R3
+Z18 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Cin1op.vhd
+Z19 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Cin1op.vhd
+l0
+L3
+V:aXSTBXk]l5W3bdF<lJ=V3
+!s100 J^dnlZfZ2i0leJ>oEhB<03
+R6
+32
+Z20 !s110 1545226176
+!i10b 1
+Z21 !s108 1545226176.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Cin1op.vhd|
+Z23 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Cin1op.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+Z24 DEx4 work 6 cin1op 0 22 :aXSTBXk]l5W3bdF<lJ=V3
+l10
+L9
+VP:@E9ca4YQDcd<<^MR2MZ0
+!s100 ^a;ZO;DYEPn5OdM_KEC2G0
+R6
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R11
+R12
+Ecin2op
+R0
+R1
+R2
+R3
+Z25 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Cin2op.vhd
+Z26 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Cin2op.vhd
+l0
+L3
+VeVKT16=lIPW_7Ba1PY]VN1
+!s100 i8;fH9Rfd`CQGhUH9hPZf3
+R6
+32
+R20
+!i10b 1
+R21
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Cin2op.vhd|
+Z28 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Cin2op.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+Z29 DEx4 work 6 cin2op 0 22 eVKT16=lIPW_7Ba1PY]VN1
+l11
+L9
+VLNlMBcR[cK32KK@jVd64a0
+!s100 OW_n_Fhff73YRRA[94:Z42
+R6
+32
+R20
+!i10b 1
+R21
+R27
+R28
+!i113 1
+R11
+R12
+Ecingen
+R0
+R1
+R2
+R3
+Z30 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/CinGen.vhd
+Z31 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/CinGen.vhd
+l0
+L3
+VdIW7z;VM?>@J[=g:?eg;H1
+!s100 O=]kFnAT65:KL^@PU8oIa3
+R6
+32
+Z32 !s110 1545226177
+!i10b 1
+Z33 !s108 1545226177.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/CinGen.vhd|
+Z35 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/CinGen.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R29
+R24
+R1
+R2
+Z36 DEx4 work 6 cingen 0 22 dIW7z;VM?>@J[=g:?eg;H1
+l11
+L9
+Va1l0ebD@og[6:@9T2N3Oc0
+!s100 m;V<]06ob`:BePZMDnCKC2
+R6
+32
+R32
+!i10b 1
+R33
+R34
+R35
+!i113 1
+R11
+R12
+Econtroller
+Z37 w1545226551
+Z38 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z39 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R1
+R2
+R3
+Z40 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Controller.vhd
+Z41 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Controller.vhd
+l0
+L5
+Vz?U>XT4aX8T1njUG]>F`i3
+!s100 F=e78_ghb<f2_D?;T:>[Q2
+R6
+32
+Z42 !s110 1545226554
+!i10b 1
+Z43 !s108 1545226554.000000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Controller.vhd|
+Z45 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Controller.vhd|
+!i113 1
+R11
+R12
+Amycontroller
+Z46 DEx4 work 3 ram 0 22 BZSg^VYg[DlgL>nQ:PiEf1
+Z47 DEx4 work 8 tristate 0 22 f5o`S:VUDLRL^CHoFY[fo0
+Z48 DEx4 work 10 myregister 0 22 ^_M4_RPcIH_R8G8NzPSMV1
+R13
+Z49 DEx4 work 7 regfile 0 22 C?OXm]OC`Z39;h3RRzR`01
+R38
+R39
+R1
+R2
+DEx4 work 10 controller 0 22 z?U>XT4aX8T1njUG]>F`i3
+l22
+L17
+VhOhn9;Sj@SRH:IW=@;DdP3
+!s100 ]mXemNke;O`[n[WE`_m2A1
+R6
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R11
+R12
+Edecoder
+R0
+R39
+R1
+R2
+R3
+Z50 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoder.vhd
+Z51 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoder.vhd
+l0
+L6
+VXH^cB5kh_Kb6>I6J7lBnm3
+!s100 11<^JVLOcXm4k^CV60<kd0
+R6
+32
+Z52 !s110 1545226178
+!i10b 1
+R33
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoder.vhd|
+Z54 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoder.vhd|
+!i113 1
+R11
+R12
+Aa_decoder
+R39
+R1
+R2
+DEx4 work 7 decoder 0 22 XH^cB5kh_Kb6>I6J7lBnm3
+l13
+L11
+V2600HK?`jFIc@6Ad?aomg0
+!s100 >Y:R94mZIZ5inJY41GkQf1
+R6
+32
+R52
+!i10b 1
+R33
+R53
+R54
+!i113 1
+R11
+R12
+Edecoder2_4
+R0
+R38
+R1
+R2
+R3
+Z55 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Decoder2_4.vhd
+Z56 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Decoder2_4.vhd
+l0
+L4
+VCLMU4QDzC>akn8L>4g44R0
+!s100 PlX:@?n=e^Sa12R`UYNHf0
+R6
+32
+R52
+!i10b 1
+Z57 !s108 1545226178.000000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Decoder2_4.vhd|
+Z59 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Decoder2_4.vhd|
+!i113 1
+R11
+R12
+Adecode
+R38
+R1
+R2
+DEx4 work 10 decoder2_4 0 22 CLMU4QDzC>akn8L>4g44R0
+l13
+L11
+Vg_9VCA1LU?hQVg1QZ8lC01
+!s100 W0>c58WTCMF_fTiok9eHg3
+R6
+32
+R52
+!i10b 1
+R57
+R58
+R59
+!i113 1
+R11
+R12
+Edecodingcircuit
+R0
+R38
+R1
+R2
+R3
+Z60 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/DecodingCircuit.vhd
+Z61 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/DecodingCircuit.vhd
+l0
+L5
+VD]iYZ^83U1]K48ihmAT`V0
+!s100 Jc6bbY]Ulhn?D5U<4DRhY0
+R6
+32
+Z62 !s110 1545226179
+!i10b 1
+Z63 !s108 1545226179.000000
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/DecodingCircuit.vhd|
+Z65 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/DecodingCircuit.vhd|
+!i113 1
+R11
+R12
+Adecoding
+R38
+R1
+R2
+Z66 DEx4 work 15 decodingcircuit 0 22 D]iYZ^83U1]K48ihmAT`V0
+l33
+L27
+Vi@aV^L8^Tg[SM22^c__?z3
+!s100 ^Q?i`4gHjmCgb4<]a8Y?T3
+R6
+32
+R62
+!i10b 1
+R63
+R64
+R65
+!i113 1
+R11
+R12
+Egenericdecoder
+R0
+R38
+R1
+R2
+R3
+Z67 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/genericDecoder.vhd
+Z68 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/genericDecoder.vhd
+l0
+L4
+V:1jziUYE4D6`96_Jdh3Y@0
+!s100 62eP[ZSd_Vcz=VXgPMn=Q1
+R6
+32
+R62
+!i10b 1
+R63
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/genericDecoder.vhd|
+Z70 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/genericDecoder.vhd|
+!i113 1
+R11
+R12
+Adecode
+R38
+R1
+R2
+DEx4 work 14 genericdecoder 0 22 :1jziUYE4D6`96_Jdh3Y@0
+l13
+L11
+VnVC9Mo`XPSZ8XVa2Q[8?33
+!s100 =f@l<RB=MY3U6X7]5BPnU0
+R6
+32
+R62
+!i10b 1
+R63
+R69
+R70
+!i113 1
+R11
+R12
+Emux2
+R0
+R1
+R2
+R3
+Z71 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/mux2.vhd
+Z72 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/mux2.vhd
+l0
+L3
+V8D9:nTi5HH?8AJJ3[B4I?0
+!s100 kJKRSWAMSLBJ6IagmUzhU1
+R6
+32
+Z73 !s110 1545226180
+!i10b 1
+Z74 !s108 1545226180.000000
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/mux2.vhd|
+Z76 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/mux2.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+DEx4 work 4 mux2 0 22 8D9:nTi5HH?8AJJ3[B4I?0
+l10
+L9
+VD>d9C2ckGb6LhcAfMHNcJ0
+!s100 SWMYaLEmzQfcW[k@D]D:`0
+R6
+32
+R73
+!i10b 1
+R74
+R75
+R76
+!i113 1
+R11
+R12
+Emy_adder
+Z77 w1545217162
+R1
+R2
+R3
+Z78 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/my_adder.vhd
+Z79 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/my_adder.vhd
+l0
+L4
+VFjlMaf=9aFlNWPMnMXH?k3
+!s100 A5lJZfMh@V_I]hj`4ZSML1
+R6
+32
+R73
+!i10b 1
+R74
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/my_adder.vhd|
+Z81 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/my_adder.vhd|
+!i113 1
+R11
+R12
+Aa_my_adder
+R1
+R2
+DEx4 work 8 my_adder 0 22 FjlMaf=9aFlNWPMnMXH?k3
+l10
+L9
+VWTIAi=eUlPK4KBG=cg]6J0
+!s100 zV9mnC<=_]VSVLkR`@1NQ1
+R6
+32
+R73
+!i10b 1
+R74
+R80
+R81
+!i113 1
+R11
+R12
+Emyregister
+R0
+R1
+R2
+R3
+Z82 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Register.vhd
+Z83 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Register.vhd
+l0
+L4
+V^_M4_RPcIH_R8G8NzPSMV1
+!s100 =C6b`=O7LlH203fF<kNz11
+R6
+32
+Z84 !s110 1545226184
+!i10b 1
+Z85 !s108 1545226184.000000
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Register.vhd|
+Z87 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Register.vhd|
+!i113 1
+R11
+R12
+Areg
+R1
+R2
+R48
+l12
+L11
+V>=@6QlIOaWG7dX;]UWO`H3
+!s100 _85RVDJK?:fRN^C?C0zF^1
+R6
+32
+R84
+!i10b 1
+R85
+R86
+R87
+!i113 1
+R11
+R12
+Enbitadder
+R0
+R1
+R2
+R3
+Z88 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/NBitAdder.vhd
+Z89 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/NBitAdder.vhd
+l0
+L3
+VTI4R0E`LL53hgeFbT4MGQ2
+!s100 k?OaK7Fig45lZ=Uf;I:5A0
+R6
+32
+Z90 !s110 1545226181
+!i10b 1
+Z91 !s108 1545226181.000000
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/NBitAdder.vhd|
+Z93 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/NBitAdder.vhd|
+!i113 1
+R11
+R12
+Amy_nbitadder
+R1
+R2
+DEx4 work 9 nbitadder 0 22 TI4R0E`LL53hgeFbT4MGQ2
+l17
+L11
+Vj5OQMmZ[Q]Zb_XzD7MVjC3
+!s100 nX:_DMknBCJhUH2oh@ooB1
+R6
+32
+R90
+!i10b 1
+R91
+R92
+R93
+!i113 1
+R11
+R12
+Eoneopmapper
+R0
+R1
+R2
+R3
+Z94 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/OneOpMapper.vhd
+Z95 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/OneOpMapper.vhd
+l0
+L3
+V>C74C]DHP4F0YdcRSLGi?2
+!s100 MD70j^Ql=KN6b9JA]d=[B3
+R6
+32
+R90
+!i10b 1
+R91
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/OneOpMapper.vhd|
+Z97 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/OneOpMapper.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+DEx4 work 11 oneopmapper 0 22 >C74C]DHP4F0YdcRSLGi?2
+l9
+L8
+Vf9Z9^[BDBbcHdf:C@;^>?2
+!s100 A`O`R;nHi7Akm3;3ME0U`0
+R6
+32
+R90
+!i10b 1
+R91
+R96
+R97
+!i113 1
+R11
+R12
+Epart_a
+R0
+R1
+R2
+R3
+Z98 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_A.vhd
+Z99 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_A.vhd
+l0
+L3
+Vjf^b9T?3H9g[c?[?CWnc82
+!s100 =H22b>ncm]m08DV91G9lS3
+R6
+32
+Z100 !s110 1545226182
+!i10b 1
+Z101 !s108 1545226182.000000
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_A.vhd|
+Z103 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_A.vhd|
+!i113 1
+R11
+R12
+Amy_design
+R1
+R2
+DEx4 work 6 part_a 0 22 jf^b9T?3H9g[c?[?CWnc82
+l38
+L12
+VH;Jd3>Fl487eS04IJ=>]D2
+!s100 zokBiNVJN6]nMmhWE@1E40
+R6
+32
+R100
+!i10b 1
+R101
+R102
+R103
+!i113 1
+R11
+R12
+Epart_b
+R0
+R1
+R2
+R3
+Z104 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_B.vhd
+Z105 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_B.vhd
+l0
+L3
+VXUM>GR`_VG<mKBOz8@F:A1
+!s100 3Bh0A17C_M;:^^`X9mK1F0
+R6
+32
+R100
+!i10b 1
+R101
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_B.vhd|
+Z107 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_B.vhd|
+!i113 1
+R11
+R12
+Astatements
+R1
+R2
+DEx4 work 6 part_b 0 22 XUM>GR`_VG<mKBOz8@F:A1
+l10
+L9
+VLa8>OM[>mDO8<LWd8iN2[1
+!s100 C4JHoNXDnWeX<P]7JzYCf1
+R6
+32
+R100
+!i10b 1
+R101
+R106
+R107
+!i113 1
+R11
+R12
+Epart_c
+R0
+R1
+R2
+R3
+Z108 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_C.vhd
+Z109 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_C.vhd
+l0
+L3
+VeOAXo9MZbQkRjRo7;S@D`0
+!s100 FkHk?>JakD20bnQMd8@J>3
+R6
+32
+Z110 !s110 1545226183
+!i10b 1
+R101
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_C.vhd|
+Z112 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_C.vhd|
+!i113 1
+R11
+R12
+Ashifts
+R1
+R2
+DEx4 work 6 part_c 0 22 eOAXo9MZbQkRjRo7;S@D`0
+l11
+L10
+VLFU674EakkVODRD4iV5Z]2
+!s100 @O[1dgNg;;On]zAU8hl^12
+R6
+32
+R110
+!i10b 1
+R101
+R111
+R112
+!i113 1
+R11
+R12
+Epart_d
+R0
+R1
+R2
+R3
+Z113 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_D.vhd
+Z114 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_D.vhd
+l0
+L3
+VN>>hcYMbDJ=zizc^`BWBI1
+!s100 =J_GFc>VB6P`J0@`0MCAQ1
+R6
+32
+R110
+!i10b 1
+Z115 !s108 1545226183.000000
+Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_D.vhd|
+Z117 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_D.vhd|
+!i113 1
+R11
+R12
+Ashifts
+R1
+R2
+DEx4 work 6 part_d 0 22 N>>hcYMbDJ=zizc^`BWBI1
+l11
+L10
+Vo<C5ka[X^Bll=A4jQzE?R2
+!s100 Lg4O1BchzVVQ08K`4bF9B3
+R6
+32
+R110
+!i10b 1
+R115
+R116
+R117
+!i113 1
+R11
+R12
+Eram
+R0
+R38
+R1
+R2
+R3
+Z118 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RAM.vhd
+Z119 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RAM.vhd
+l0
+L5
+VBZSg^VYg[DlgL>nQ:PiEf1
+!s100 @ZTcSkjJh0zfOKSD8G28K2
+R6
+32
+R84
+!i10b 1
+R115
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RAM.vhd|
+Z121 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RAM.vhd|
+!i113 1
+R11
+R12
+Amyram
+R38
+R1
+R2
+R46
+l21
+L16
+VgVNPlXal6Pj=OjcAD<C_U0
+!s100 GInZC<z?1dM>l;bm[e9n22
+R6
+32
+R84
+!i10b 1
+R115
+R120
+R121
+!i113 1
+R11
+R12
+Eregfile
+R0
+R39
+R1
+R2
+R3
+Z122 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RegisterFile.vhd
+Z123 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RegisterFile.vhd
+l0
+L4
+VC?OXm]OC`Z39;h3RRzR`01
+!s100 4FhjmEm=G4hG_]fBCNML;0
+R6
+32
+R84
+!i10b 1
+R85
+Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RegisterFile.vhd|
+Z125 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RegisterFile.vhd|
+!i113 1
+R11
+R12
+Areg
+R39
+R1
+R2
+R49
+l47
+L14
+V1o`[:ImVHOgfi=7FRzk1X3
+!s100 hh^cfMB2Ta3gMm7OzWIGb1
+R6
+32
+R84
+!i10b 1
+R85
+R124
+R125
+!i113 1
+R11
+R12
+Erom
+R0
+R38
+R1
+R2
+R3
+Z126 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROM.vhd
+Z127 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROM.vhd
+l0
+L5
+V1h6IKV8JdR@kNDlU>TaBk1
+!s100 La71]7zNA4FnjT6;nN_ZN1
+R6
+32
+Z128 !s110 1545226185
+!i10b 1
+Z129 !s108 1545226185.000000
+Z130 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROM.vhd|
+Z131 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROM.vhd|
+!i113 1
+R11
+R12
+Amyrom
+R38
+R1
+R2
+Z132 DEx4 work 3 rom 0 22 1h6IKV8JdR@kNDlU>TaBk1
+l18
+L13
+V94jG;ancTNBIME<51VH_o1
+!s100 aMHFN>OniL<>6mg_KEVPz3
+R6
+32
+R128
+!i10b 1
+R129
+R130
+R131
+!i113 1
+R11
+R12
+Eromcontroller
+Z133 w1545226252
+R1
+R2
+R3
+Z134 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROMController.vhd
+Z135 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROMController.vhd
+l0
+L3
+VgbV3QHTd=D>4RUN<PnWT?0
+!s100 Dld;CPVQD2Qhb[5I3EbVA0
+R6
+32
+Z136 !s110 1545226255
+!i10b 1
+Z137 !s108 1545226255.000000
+Z138 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROMController.vhd|
+Z139 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROMController.vhd|
+!i113 1
+R11
+R12
+Adataflow
+Z140 DEx4 work 10 romdecoder 0 22 dU0^Y5K<4886HZcS4@80<3
+R36
+R66
+R38
+R132
+R1
+R2
+DEx4 work 13 romcontroller 0 22 gbV3QHTd=D>4RUN<PnWT?0
+l26
+L14
+VKnhg<]RMo2n[j<8N]jWT00
+!s100 ]=SH3SVNYh=?aW0L8C4]e3
+R6
+32
+R136
+!i10b 1
+R137
+R138
+R139
+!i113 1
+R11
+R12
+Eromdecoder
+Z141 w1545209878
+R1
+R2
+R3
+Z142 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoderProject.vhd
+Z143 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoderProject.vhd
+l0
+L5
+VdU0^Y5K<4886HZcS4@80<3
+!s100 Q@0CZMW_GcNa[3zDJbZJ;0
+R6
+32
+R52
+!i10b 1
+R57
+Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoderProject.vhd|
+Z145 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoderProject.vhd|
+!i113 1
+R11
+R12
+Adata_flow
+R1
+R2
+R140
+l32
+L15
+V7ZjOICk><01c7e@n8hcm;2
+!s100 k?]n];ZV=2=cO<9`ABl:Y1
+R6
+32
+R52
+!i10b 1
+R57
+R144
+R145
+!i113 1
+R11
+R12
+Esrcdstdecoder
+Z146 w1545225174
+R1
+R2
+R3
+Z147 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/SrcDstDecoder.vhd
+Z148 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/SrcDstDecoder.vhd
+l0
+L5
+Vi@=5PEB8Q[PiW6J8Ii=Nm2
+!s100 GnRNZ[fkV?:<Ld@dLg_Vc2
+R6
+32
+Z149 !s110 1545226186
+!i10b 1
+Z150 !s108 1545226186.000000
+Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/SrcDstDecoder.vhd|
+Z152 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/SrcDstDecoder.vhd|
+!i113 1
+R11
+R12
+Adata_flow
+R1
+R2
+DEx4 work 13 srcdstdecoder 0 22 i@=5PEB8Q[PiW6J8Ii=Nm2
+l15
+L13
+Vc2CY6P;m?e<M10`D2Jf0e3
+!s100 PEcneJ9^NOQIADNndL^PH0
+R6
+32
+R149
+!i10b 1
+R150
+R151
+R152
+!i113 1
+R11
+R12
+Etristate
+R77
+R1
+R2
+R3
+Z153 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/tristate.vhd
+Z154 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/tristate.vhd
+l0
+L4
+Vf5o`S:VUDLRL^CHoFY[fo0
+!s100 JQ@gFK>3B_zZ:^V[zLVPZ1
+R6
+32
+R149
+!i10b 1
+R150
+Z155 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/tristate.vhd|
+Z156 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/tristate.vhd|
+!i113 1
+R11
+R12
+Atri
+R1
+R2
+R47
+l12
+L11
+VOaUXY^<ehd2Pf;5So]CcD0
+!s100 9Cm]JH76]Eh0AP<:8Y=ND3
+R6
+32
+R149
+!i10b 1
+R150
+R155
+R156
+!i113 1
+R11
+R12
+Etwoopmapper
+R0
+R1
+R2
+R3
+Z157 8C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/TwoOpMapper.vhd
+Z158 FC:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/TwoOpMapper.vhd
+l0
+L3
+VGo`@<?7HWF74b7:`k9Ko73
+!s100 W>jD1E9U2mTH^A[E5]^JX0
+R6
+32
+Z159 !s110 1545226174
+!i10b 1
+Z160 !s108 1545226174.000000
+Z161 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/TwoOpMapper.vhd|
+Z162 !s107 C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/TwoOpMapper.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+DEx4 work 11 twoopmapper 0 22 Go`@<?7HWF74b7:`k9Ko73
+l10
+L8
+VH4elNAeT6EcO0WWcDMaNo0
+!s100 jW_6hh^2^`jX]?j<W8RDX2
+R6
+32
+R159
+!i10b 1
+R160
+R161
+R162
+!i113 1
+R11
+R12

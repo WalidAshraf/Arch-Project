@@ -43,6 +43,8 @@ BEGIN
 						IRoutA,MDRoutA,MDRinB,TEMPoutB,RdstoutB,PCoutB,AplusB,
 						Aminus1,A,Aplus1,ALU,RD,WR,ENDsig,WMFC,RsrcinC,RdstinC,
 						MDRinC,TEMPinC,PCinC,IRinC,TEMPoutA,CinRom);
+	cinController <= CinRom when ALU = '0'
+	ELSE cin;
 	--Increment PC when END is detected only
 	--INCREMENTOR: ENTITY work.NBitAdder GENERIC MAP(16) PORT MAP(PC, END, 0, PC);
 END Architecture;
