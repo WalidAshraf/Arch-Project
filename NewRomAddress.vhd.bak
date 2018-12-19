@@ -37,7 +37,7 @@ begin
 	newAddressBranchType1(0) <= address(0) OR (all_indirect);
 
 	newAddressBranchType2(5 downto 1) <= address(5 downto 1);
-	newAddressBranchType2(0) <= address(0) OR (NOT srcIndirect);
+	newAddressBranchType2(0) <= address(0) OR srcIndirect;
 	
 
 	newAddressBranchType3NotMOV(5) <= address(5);

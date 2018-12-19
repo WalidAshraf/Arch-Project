@@ -5,7 +5,7 @@ GENERIC(RAMAddressBits: integer :=16;
 	registers: integer :=8;
 	RegWordSize: integer :=16;
 	ROMAddressBits: integer := 6;
-	ROMWordSize: integer := 20;
+	ROMWordSize: integer := 27;
 	RAMWordSize: integer := 16);
 port	(Instruction: in std_logic_vector(RAMWordSize - 1 downto 0);
 	 Carry, Zero: in std_logic);
@@ -33,6 +33,7 @@ SIGNAL BranchType: std_logic_vector (2 downto 0);
 SIGNAL AddressBits: std_logic_vector (5 downto 0);
 SIGNAL modeSRC, modeDST: std_logic_vector (1 downto 0);
 SIGNAL b8: std_logic;
+SIGNAL CleanControlWord: std_logic_vector (17 downto 0);
 BEGIN
 	PROCESS
 	BEGIN
@@ -47,6 +48,7 @@ BEGIN
 	AddressBits <= ControlWord(8 downto 3);
 	BranchType <= ControlWord(2 downto 0);
 	b8 <= Instruction(8);
+	CleanControlWord <= ControlWord(26 downto 9);
 	--Ctrl: ENTITY work.Controller GENERIC MAP(RAMAddressBits, registers, RAMWordSize);
 	NewAdd: ENTITY work.NewRomAddress PORT MAP(AddressBits, BranchType, modeSRC, --Performs bit ORING if needed
 						      modeDST, InstructionType, SrcIndirect, DstIndirect,
@@ -58,7 +60,7 @@ BEGIN
 						 Branch, NoOp, MOV, CMP, SrcIndirect, DstIndirect); 
 	C: ENTITY work.CinGen PORT MAP(Instruction, Carry, OneOp, TwoOp, cin);	--Osama's IR dependent ALU cin
 	BranchCond: ENTITY work.BranchCondition PORT MAP(Instruction, Carry, Zero, Result);	--Checks if branching condition is met
-	ROMDecoder: ENTITY work.RomDecoder PORT MAP(ControlWord,PCoutA,RsrcoutA,RdstoutA,MARinA,MARinC, --Decode ROM control word
+	ROMDecoder: ENTITY work.RomDecoder PORT MAP(CleanControlWord,PCoutA,RsrcoutA,RdstoutA,MARinA,MARinC, --Decode ROM control word
 						IRoutA,MDRoutA,MDRinB,TEMPoutB,RdstoutB,PCoutB,AplusB,
 						Aminus1,A,Aplus1,ALU,RD,WR,ENDsig,WMFC,RsrcinC,RdstinC,
 						MDRinC,TEMPinC,PCinC,IRinC,RsrcoutB,TEMPoutA,CinRom);

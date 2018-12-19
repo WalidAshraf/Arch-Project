@@ -1,3 +1,6 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/romcontroller/ROM/ROM
+// format=mti addressradix=h dataradix=b version=1.0 wordsperline=1 noaddress
 100000000110001000001000110
 100100000110000000010010000
 100100001000110010010101000

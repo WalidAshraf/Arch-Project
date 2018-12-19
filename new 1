@@ -1,0 +1,20 @@
+vsim -gui work.newromaddress
+add wave -position insertpoint  \
+sim:/newromaddress/branchType  \
+sim:/newromaddress/modeSRC \
+sim:/newromaddress/modeDST \
+sim:/newromaddress/instructionType \
+sim:/newromaddress/srcIndirect \
+sim:/newromaddress/dstIndirect \
+sim:/newromaddress/twoOp \
+sim:/newromaddress/oneOp \
+sim:/newromaddress/branch \
+sim:/newromaddress/noOp \
+sim:/newromaddress/cmp \
+sim:/newromaddress/mov \
+sim:/newromaddress/result \
+sim:/newromaddress/b8 \
+sim:/newromaddress/newAddress \
+sim:/newromaddress/address 
+
+force -freeze sim:/newromaddress/modeSRC 2'h1 0
