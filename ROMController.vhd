@@ -16,7 +16,7 @@ Architecture Dataflow of ROMController is
 SIGNAL OneOp, TwoOp, Branch, NoOp, MOV, CMP, cin,PCoutA,RsrcoutA,RdstoutA,MARinA,MARinC,
 	IRoutA,MDRoutA,MDRinB,TEMPoutB,RdstoutB,PCoutB,AplusB,
 	Aminus1,A,Aplus1,ALU,RD,WR,ENDsig,WMFC,RsrcinC,RdstinC,
-	MDRinC,TEMPinC,PCinC,IRinC,TEMPoutA,CinRom:STD_LOGIC;
+	MDRinC,TEMPinC,PCinC,IRinC,RsrcoutB,TEMPoutA,CinRom:STD_LOGIC;
 SIGNAL ControlWord: std_logic_vector(ROMWordSize - 1 downto 0);  --7asab grouping Walid
 SIGNAL MicroPC: std_logic_vector(ROMAddressBits - 1 downto 0) := (others => '0');	--3'aleban 6 bits
 SIGNAL NextMicroPC: std_logic_vector(ROMAddressBits - 1 downto 0) := (others => '0');
@@ -43,7 +43,7 @@ BEGIN
 	ROMDecoder: ENTITY work.RomDecoder PORT MAP(ControlWord,PCoutA,RsrcoutA,RdstoutA,MARinA,MARinC,
 						IRoutA,MDRoutA,MDRinB,TEMPoutB,RdstoutB,PCoutB,AplusB,
 						Aminus1,A,Aplus1,ALU,RD,WR,ENDsig,WMFC,RsrcinC,RdstinC,
-						MDRinC,TEMPinC,PCinC,IRinC,TEMPoutA,CinRom);
+						MDRinC,TEMPinC,PCinC,IRinC,RsrcoutB,TEMPoutA,CinRom);
 	cinController <= CinRom when ALU = '0'
 	ELSE cin;
 	--Increment PC when END is detected only
