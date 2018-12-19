@@ -198,21 +198,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Part_C
 -- Compiling architecture Shifts of Part_C
 
-} {} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Controller.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Controller.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package MATH_REAL
--- Loading package NUMERIC_STD
--- Compiling entity Controller
--- Compiling architecture MyController of Controller
--- Loading entity RegFile
--- Loading entity ALSU
--- Loading entity MyRegister
--- Loading entity tristate
--- Loading entity RAM
-
 } {} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/mux2.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/mux2.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -253,7 +238,20 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 ** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
 
-} {3.0 4.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/CinGen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/CinGen.vhd
+} {3.0 4.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROMController.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROMController.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ROMController
+-- Compiling architecture Dataflow of ROMController
+-- Loading package NUMERIC_STD
+-- Loading entity ROM
+-- Loading entity DecodingCircuit
+-- Loading entity CinGen
+-- Loading entity RomDecoder
+
+} {} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/CinGen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/CinGen.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
