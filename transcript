@@ -1,54 +1,3 @@
-# Reading D:/CMP/ModelSim/modelsim_ase/tcl/vsim/pref.tcl
-# OpenFile C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ALSU.vhd
-# Loading project Project
-# Compile of ROMController.vhd was successful.
-# Compile of TwoOpMapper.vhd was successful.
-# Compile of ALSU.vhd was successful.
-# Compile of BranchCondition.vhd was successful.
-# Compile of Cin1op.vhd was successful.
-# Compile of Cin2op.vhd was successful.
-# Compile of CinGen.vhd was successful.
-# Compile of Controller.vhd was successful.
-# Compile of decoder.vhd was successful.
-# Compile of Decoder2_4.vhd was successful.
-# Compile of decoderProject.vhd was successful.
-# Compile of DecodingCircuit.vhd was successful.
-# Compile of genericDecoder.vhd was successful.
-# Compile of mux2.vhd was successful.
-# Compile of my_adder.vhd was successful.
-# Compile of NBitAdder.vhd was successful.
-# Compile of OneOpMapper.vhd was successful.
-# Compile of Part_A.vhd was successful.
-# Compile of Part_B.vhd was successful.
-# Compile of Part_C.vhd was successful.
-# Compile of Part_D.vhd was successful.
-# Compile of RAM.vhd was successful.
-# Compile of Register.vhd was successful.
-# Compile of RegisterFile.vhd was successful.
-# Compile of ROM.vhd was successful.
-# Compile of ROMController.vhd was successful.
-# Compile of SrcDstDecoder.vhd was successful.
-# Compile of tristate.vhd was successful.
-# Compile of Fmapping.vhd was successful.
-# Compile of FlagRegisterFile.vhd was successful.
-# Compile of NewRomAddress.vhd was successful.
-# Compile of FmapperALU.vhd was successful.
-# 31 compiles, 0 failed with no errors.
-# Compile of ROMController.vhd was successful.
-# Compile of ROMController.vhd failed with 3 errors.
-# Compile of ROMController.vhd failed with 8 errors.
-# Compile of ROMController.vhd failed with 7 errors.
-# Compile of ROMController.vhd failed with 2 errors.
-# Compile of ROMController.vhd was successful.
-# Compile of ROMController.vhd failed with 2 errors.
-# Compile of Controller.vhd failed with 4 errors.
-# Compile of Controller.vhd failed with 2 errors.
-# Compile of Controller.vhd failed with 4 errors.
-# Compile of Controller.vhd was successful.
-# Compile of ROMController.vhd was successful.
-# Compile of FlagRegisterFile.vhd failed with 1 errors.
-# Compile of FlagRegisterFile.vhd failed with 1 errors.
-# Compile of FlagRegisterFile.vhd was successful.
 # Compile of TwoOpMapper.vhd was successful.
 # Compile of ALSU.vhd was successful.
 # Compile of BranchCondition.vhd was successful.
@@ -82,3 +31,831 @@
 # Compile of FmapperALU.vhd was successful.
 # Compile of MotherBoard.vhd failed with 1 errors.
 # 32 compiles, 1 failed with 1 error.
+# Compile of ROMController.vhd failed with 2 errors.
+# Compile of ROMController.vhd was successful.
+Controller.do
+# couldn't execute ".\Controller.do": no such file or directory
+do RomController.do
+# vsim work.RomController 
+# Start time: 00:13:54 on Dec 20,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.romcontroller(dataflow)
+# Loading work.newromaddress(dataflow)
+# Loading work.rom(myrom)
+# Loading work.decodingcircuit(decoding)
+# Loading work.cingen(dataflow)
+# Loading work.cin1op(dataflow)
+# Loading work.cin2op(dataflow)
+# Loading work.branchcondition(dataflow)
+# Loading work.romdecoder(data_flow)
+# ** Fatal: (vsim-3348) Port length (18) does not match actual length (27) for port "/romcontroller/ROMDecoder/romIn".
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder File: C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoderProject.vhd Line: 6
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./RomController.do PAUSED at line 1
+# Compile of ROMController.vhd was successful.
+# Compile of TwoOpMapper.vhd was successful.
+# Compile of ALSU.vhd was successful.
+# Compile of BranchCondition.vhd was successful.
+# Compile of Cin1op.vhd was successful.
+# Compile of Cin2op.vhd was successful.
+# Compile of CinGen.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of Decoder2_4.vhd was successful.
+# Compile of decoderProject.vhd was successful.
+# Compile of DecodingCircuit.vhd was successful.
+# Compile of genericDecoder.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of NBitAdder.vhd was successful.
+# Compile of OneOpMapper.vhd was successful.
+# Compile of Part_A.vhd was successful.
+# Compile of Part_B.vhd was successful.
+# Compile of Part_C.vhd was successful.
+# Compile of Part_D.vhd was successful.
+# Compile of RAM.vhd was successful.
+# Compile of Register.vhd was successful.
+# Compile of RegisterFile.vhd was successful.
+# Compile of ROM.vhd was successful.
+# Compile of ROMController.vhd was successful.
+# Compile of SrcDstDecoder.vhd was successful.
+# Compile of tristate.vhd was successful.
+# Compile of Fmapping.vhd was successful.
+# Compile of FlagRegisterFile.vhd was successful.
+# Compile of NewRomAddress.vhd was successful.
+# Compile of FmapperALU.vhd was successful.
+# 31 compiles, 0 failed with no errors.
+do RomController.do
+# vsim work.RomController 
+# Start time: 00:13:54 on Dec 20,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.romcontroller(dataflow)
+# Loading work.newromaddress(dataflow)
+# Loading work.rom(myrom)
+# Loading work.decodingcircuit(decoding)
+# Loading work.cingen(dataflow)
+# Loading work.cin1op(dataflow)
+# Loading work.cin2op(dataflow)
+# Loading work.branchcondition(dataflow)
+# Loading work.romdecoder(data_flow)
+# ** Fatal: (vsim-3348) Port length (18) does not match actual length (27) for port "/romcontroller/ROMDecoder/romIn".
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder File: C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoderProject.vhd Line: 6
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./RomController.do PAUSED at line 1
+# Compile of Part_C.vhd was successful.
+Controller.do
+# couldn't execute ".\Controller.do": no such file or directory
+do RomController.do
+# vsim work.RomController 
+# Start time: 00:13:54 on Dec 20,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.romcontroller(dataflow)
+# Loading work.newromaddress(dataflow)
+# Loading work.rom(myrom)
+# Loading work.decodingcircuit(decoding)
+# Loading work.cingen(dataflow)
+# Loading work.cin1op(dataflow)
+# Loading work.cin2op(dataflow)
+# Loading work.branchcondition(dataflow)
+# Loading work.romdecoder(data_flow)
+# ** Fatal: (vsim-3348) Port length (18) does not match actual length (27) for port "/romcontroller/ROMDecoder/romIn".
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder File: C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoderProject.vhd Line: 6
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./RomController.do PAUSED at line 1
+# Compile of ROMController.vhd was successful.
+# Compile of TwoOpMapper.vhd was successful.
+# Compile of ALSU.vhd was successful.
+# Compile of BranchCondition.vhd was successful.
+# Compile of Cin1op.vhd was successful.
+# Compile of Cin2op.vhd was successful.
+# Compile of CinGen.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of Decoder2_4.vhd was successful.
+# Compile of decoderProject.vhd was successful.
+# Compile of DecodingCircuit.vhd was successful.
+# Compile of genericDecoder.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of NBitAdder.vhd was successful.
+# Compile of OneOpMapper.vhd was successful.
+# Compile of Part_A.vhd was successful.
+# Compile of Part_B.vhd was successful.
+# Compile of Part_C.vhd was successful.
+# Compile of Part_D.vhd was successful.
+# Compile of RAM.vhd was successful.
+# Compile of Register.vhd was successful.
+# Compile of RegisterFile.vhd was successful.
+# Compile of ROM.vhd was successful.
+# Compile of ROMController.vhd was successful.
+# Compile of SrcDstDecoder.vhd was successful.
+# Compile of tristate.vhd was successful.
+# Compile of Fmapping.vhd was successful.
+# Compile of FlagRegisterFile.vhd was successful.
+# Compile of NewRomAddress.vhd was successful.
+# Compile of FmapperALU.vhd was successful.
+# 31 compiles, 0 failed with no errors.
+# Compile of OneOpMapper.vhd was successful.
+vsim work.romcontroller(dataflow)
+# vsim work.romcontroller(dataflow) 
+# Start time: 00:13:54 on Dec 20,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.romcontroller(dataflow)
+# Loading work.newromaddress(dataflow)
+# Loading work.rom(myrom)
+# Loading work.decodingcircuit(decoding)
+# Loading work.cingen(dataflow)
+# Loading work.cin1op(dataflow)
+# Loading work.cin2op(dataflow)
+# Loading work.branchcondition(dataflow)
+# Loading work.romdecoder(data_flow)
+# Loading work.genericdecoder(decode)
+# Loading work.fmapping(data_flow)
+# Loading work.fmapperalu(dataflow)
+# Loading work.twoopmapper(dataflow)
+# Loading work.controller(mycontroller)
+# Loading work.regfile(reg)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# Loading work.alsu(arch)
+# Loading work.part_a(my_design)
+# Loading work.mux2(dataflow)
+# ** Warning: (vsim-3473) Component instance "M4 : Mux4" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/ALU/PA File: C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_A.vhd
+# Loading work.nbitadder(my_nbitadder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.part_b(statements)
+# Loading work.part_c(shifts)
+# Loading work.part_d(shifts)
+# Loading work.ram(myram)
+# Loading work.flagregister(dataflow)
+# Loading work.srcdstdecoder(data_flow)
+quit -sim
+# Compile of TwoOpMapper.vhd was successful.
+# Compile of ALSU.vhd was successful.
+# Compile of BranchCondition.vhd was successful.
+# Compile of Cin1op.vhd was successful.
+# Compile of Cin2op.vhd was successful.
+# Compile of CinGen.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of Decoder2_4.vhd was successful.
+# Compile of decoderProject.vhd was successful.
+# Compile of DecodingCircuit.vhd was successful.
+# Compile of genericDecoder.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of NBitAdder.vhd was successful.
+# Compile of OneOpMapper.vhd was successful.
+# Compile of Part_A.vhd was successful.
+# Compile of Part_B.vhd was successful.
+# Compile of Part_C.vhd was successful.
+# Compile of Part_D.vhd was successful.
+# Compile of RAM.vhd was successful.
+# Compile of Register.vhd was successful.
+# Compile of RegisterFile.vhd was successful.
+# Compile of ROM.vhd was successful.
+# Compile of ROMController.vhd was successful.
+# Compile of SrcDstDecoder.vhd was successful.
+# Compile of tristate.vhd was successful.
+# Compile of Fmapping.vhd was successful.
+# Compile of FlagRegisterFile.vhd was successful.
+# Compile of NewRomAddress.vhd was successful.
+# Compile of FmapperALU.vhd was successful.
+# Compile of mux4.vhd was successful.
+# 32 compiles, 0 failed with no errors.
+# End time: 00:24:49 on Dec 20,2018, Elapsed time: 0:10:55
+# Errors: 3, Warnings: 1
+vsim work.romcontroller
+# vsim work.romcontroller 
+# Start time: 00:25:09 on Dec 20,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.romcontroller(dataflow)
+# Loading work.newromaddress(dataflow)
+# Loading work.rom(myrom)
+# Loading work.decodingcircuit(decoding)
+# Loading work.cingen(dataflow)
+# Loading work.cin1op(dataflow)
+# Loading work.cin2op(dataflow)
+# Loading work.branchcondition(dataflow)
+# Loading work.romdecoder(data_flow)
+# Loading work.genericdecoder(decode)
+# Loading work.fmapping(data_flow)
+# Loading work.fmapperalu(dataflow)
+# Loading work.twoopmapper(dataflow)
+# Loading work.controller(mycontroller)
+# Loading work.regfile(reg)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# Loading work.alsu(arch)
+# Loading work.part_a(my_design)
+# Loading work.mux2(dataflow)
+# Loading work.mux4(structural)
+# Loading work.nbitadder(my_nbitadder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.part_b(statements)
+# Loading work.part_c(shifts)
+# Loading work.part_d(shifts)
+# Loading work.ram(myram)
+# Loading work.flagregister(dataflow)
+# Loading work.srcdstdecoder(data_flow)
+add wave -position insertpoint sim:/romcontroller/*
+mem load -i {C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RomBits.mem} /romcontroller/ROM/ROM
+
+force -freeze sim:/romcontroller/CarryFlag 0 0
+force -freeze sim:/romcontroller/ZeroFlag 1 0
+force -freeze sim:/romcontroller/Instruction 16'h106A 0
+run 600
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecDst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecSrc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F9Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F7Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F6Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F5Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F2Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F1Decoder
+add wave -position insertpoint sim:/romcontroller/*
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecDst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecSrc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F9Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F7Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F6Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F5Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F2Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F1Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 1  Instance: /romcontroller/ROM
+quit -sim
+# End time: 00:30:36 on Dec 20,2018, Elapsed time: 0:05:27
+# Errors: 0, Warnings: 19
+vsim work.RomController
+# vsim work.RomController 
+# Start time: 00:31:23 on Dec 20,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.romcontroller(dataflow)
+# Loading work.newromaddress(dataflow)
+# Loading work.rom(myrom)
+# Loading work.decodingcircuit(decoding)
+# Loading work.cingen(dataflow)
+# Loading work.cin1op(dataflow)
+# Loading work.cin2op(dataflow)
+# Loading work.branchcondition(dataflow)
+# Loading work.romdecoder(data_flow)
+# Loading work.genericdecoder(decode)
+# Loading work.fmapping(data_flow)
+# Loading work.fmapperalu(dataflow)
+# Loading work.twoopmapper(dataflow)
+# Loading work.controller(mycontroller)
+# Loading work.regfile(reg)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# Loading work.alsu(arch)
+# Loading work.part_a(my_design)
+# Loading work.mux2(dataflow)
+# Loading work.mux4(structural)
+# Loading work.nbitadder(my_nbitadder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.part_b(statements)
+# Loading work.part_c(shifts)
+# Loading work.part_d(shifts)
+# Loading work.ram(myram)
+# Loading work.flagregister(dataflow)
+# Loading work.srcdstdecoder(data_flow)
+add wave -position insertpoint  \
+sim:/romcontroller/Instruction \
+sim:/romcontroller/CarryFlag \
+sim:/romcontroller/ZeroFlag \
+sim:/romcontroller/MicroPC \
+sim:/romcontroller/NextMicroPC \
+sim:/romcontroller/ROMDecoder/RdstinC \
+sim:/romcontroller/BranchCond/Result \
+sim:/romcontroller/Clock 
+
+mem load -i {C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RomBits.mem} /romcontroller/ROM/ROM
+#Label1: ADD R1,@(R2)+
+force -freeze sim:/romcontroller/CarryFlag 0 0
+force -freeze sim:/romcontroller/ZeroFlag 1 0
+force -freeze sim:/romcontroller/Instruction 16'h106A 0
+run 600
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecDst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecSrc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F9Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F7Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F6Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F5Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F2Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F1Decoder
+quit -sim
+# End time: 00:31:39 on Dec 20,2018, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 9
+# Compile of TwoOpMapper.vhd was successful.
+# Compile of ALSU.vhd was successful.
+# Compile of BranchCondition.vhd was successful.
+# Compile of Cin1op.vhd was successful.
+# Compile of Cin2op.vhd was successful.
+# Compile of CinGen.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of Decoder2_4.vhd was successful.
+# Compile of decoderProject.vhd was successful.
+# Compile of DecodingCircuit.vhd was successful.
+# Compile of genericDecoder.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of NBitAdder.vhd was successful.
+# Compile of OneOpMapper.vhd was successful.
+# Compile of Part_A.vhd was successful.
+# Compile of Part_B.vhd was successful.
+# Compile of Part_C.vhd was successful.
+# Compile of Part_D.vhd was successful.
+# Compile of RAM.vhd was successful.
+# Compile of Register.vhd was successful.
+# Compile of RegisterFile.vhd was successful.
+# Compile of ROM.vhd was successful.
+# Compile of ROMController.vhd was successful.
+# Compile of SrcDstDecoder.vhd was successful.
+# Compile of tristate.vhd was successful.
+# Compile of Fmapping.vhd was successful.
+# Compile of FlagRegisterFile.vhd was successful.
+# Compile of NewRomAddress.vhd was successful.
+# Compile of FmapperALU.vhd was successful.
+# Compile of mux4.vhd was successful.
+# 32 compiles, 0 failed with no errors.
+vsim work.RomController
+# vsim work.RomController 
+# Start time: 00:31:58 on Dec 20,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.romcontroller(dataflow)
+# Loading work.newromaddress(dataflow)
+# Loading work.rom(myrom)
+# Loading work.decodingcircuit(decoding)
+# Loading work.cingen(dataflow)
+# Loading work.cin1op(dataflow)
+# Loading work.cin2op(dataflow)
+# Loading work.branchcondition(dataflow)
+# Loading work.romdecoder(data_flow)
+# Loading work.genericdecoder(decode)
+# Loading work.fmapping(data_flow)
+# Loading work.fmapperalu(dataflow)
+# Loading work.twoopmapper(dataflow)
+# Loading work.controller(mycontroller)
+# Loading work.regfile(reg)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# Loading work.alsu(arch)
+# Loading work.part_a(my_design)
+# Loading work.mux2(dataflow)
+# Loading work.mux4(structural)
+# Loading work.nbitadder(my_nbitadder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.part_b(statements)
+# Loading work.part_c(shifts)
+# Loading work.part_d(shifts)
+# Loading work.ram(myram)
+# Loading work.flagregister(dataflow)
+# Loading work.srcdstdecoder(data_flow)
+add wave -position insertpoint  \
+sim:/romcontroller/Instruction \
+sim:/romcontroller/CarryFlag \
+sim:/romcontroller/ZeroFlag \
+sim:/romcontroller/MicroPC \
+sim:/romcontroller/NextMicroPC \
+sim:/romcontroller/ROMDecoder/RdstinC \
+sim:/romcontroller/BranchCond/Result \
+sim:/romcontroller/Clock 
+
+mem load -i {C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RomBits.mem} /romcontroller/ROM/ROM
+#Label1: ADD R1,@(R2)+
+force -freeze sim:/romcontroller/CarryFlag 0 0
+force -freeze sim:/romcontroller/ZeroFlag 1 0
+force -freeze sim:/romcontroller/Instruction 16'h106A 0
+run 600
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecDst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecSrc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F9Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F7Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F6Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F5Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F2Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F1Decoder
+vsim work.RomController
+# End time: 00:33:37 on Dec 20,2018, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 9
+# vsim work.RomController 
+# Start time: 00:33:37 on Dec 20,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.romcontroller(dataflow)
+# Loading work.newromaddress(dataflow)
+# Loading work.rom(myrom)
+# Loading work.decodingcircuit(decoding)
+# Loading work.cingen(dataflow)
+# Loading work.cin1op(dataflow)
+# Loading work.cin2op(dataflow)
+# Loading work.branchcondition(dataflow)
+# Loading work.romdecoder(data_flow)
+# Loading work.genericdecoder(decode)
+# Loading work.fmapping(data_flow)
+# Loading work.fmapperalu(dataflow)
+# Loading work.twoopmapper(dataflow)
+# Loading work.controller(mycontroller)
+# Loading work.regfile(reg)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# Loading work.alsu(arch)
+# Loading work.part_a(my_design)
+# Loading work.mux2(dataflow)
+# Loading work.mux4(structural)
+# Loading work.nbitadder(my_nbitadder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.part_b(statements)
+# Loading work.part_c(shifts)
+# Loading work.part_d(shifts)
+# Loading work.ram(myram)
+# Loading work.flagregister(dataflow)
+# Loading work.srcdstdecoder(data_flow)
+add wave -position insertpoint  \
+sim:/romcontroller/Instruction \
+sim:/romcontroller/CarryFlag \
+sim:/romcontroller/ZeroFlag \
+sim:/romcontroller/MicroPC \
+sim:/romcontroller/NextMicroPC \
+sim:/romcontroller/ROMDecoder/RdstinC \
+sim:/romcontroller/BranchCond/Result \
+sim:/romcontroller/Clock 
+
+mem load -i {C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RomBits.mem} /romcontroller/ROM/ROM
+#Label1: ADD R1,@(R2)+
+force -freeze sim:/romcontroller/CarryFlag 0 0
+force -freeze sim:/romcontroller/ZeroFlag 1 0
+force -freeze sim:/romcontroller/Instruction 16'h106A 0
+run 600ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecDst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecSrc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F9Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F7Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F6Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F5Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F2Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F1Decoder
+vsim work.RomController
+# End time: 00:34:50 on Dec 20,2018, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 9
+# vsim work.RomController 
+# Start time: 00:34:50 on Dec 20,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.romcontroller(dataflow)
+# Loading work.newromaddress(dataflow)
+# Loading work.rom(myrom)
+# Loading work.decodingcircuit(decoding)
+# Loading work.cingen(dataflow)
+# Loading work.cin1op(dataflow)
+# Loading work.cin2op(dataflow)
+# Loading work.branchcondition(dataflow)
+# Loading work.romdecoder(data_flow)
+# Loading work.genericdecoder(decode)
+# Loading work.fmapping(data_flow)
+# Loading work.fmapperalu(dataflow)
+# Loading work.twoopmapper(dataflow)
+# Loading work.controller(mycontroller)
+# Loading work.regfile(reg)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# Loading work.alsu(arch)
+# Loading work.part_a(my_design)
+# Loading work.mux2(dataflow)
+# Loading work.mux4(structural)
+# Loading work.nbitadder(my_nbitadder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.part_b(statements)
+# Loading work.part_c(shifts)
+# Loading work.part_d(shifts)
+# Loading work.ram(myram)
+# Loading work.flagregister(dataflow)
+# Loading work.srcdstdecoder(data_flow)
+add wave -position insertpoint  \
+sim:/romcontroller/Instruction \
+sim:/romcontroller/CarryFlag \
+sim:/romcontroller/ZeroFlag \
+sim:/romcontroller/MicroPC \
+sim:/romcontroller/NextMicroPC \
+sim:/romcontroller/ROMDecoder/RdstinC \
+sim:/romcontroller/BranchCond/Result \
+sim:/romcontroller/Clock 
+
+mem load -i {C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RomBits.mem} /romcontroller/ROM/ROM
+#Label1: ADD R1,@(R2)+
+force -freeze sim:/romcontroller/CarryFlag 0 0
+force -freeze sim:/romcontroller/ZeroFlag 1 0
+force -freeze sim:/romcontroller/Instruction 16'h106A 0
+run 600ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecDst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecSrc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F9Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F7Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F6Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F5Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F2Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F1Decoder
+vsim work.RomController
+# End time: 00:36:02 on Dec 20,2018, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 9
+# vsim work.RomController 
+# Start time: 00:36:02 on Dec 20,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.romcontroller(dataflow)
+# Loading work.newromaddress(dataflow)
+# Loading work.rom(myrom)
+# Loading work.decodingcircuit(decoding)
+# Loading work.cingen(dataflow)
+# Loading work.cin1op(dataflow)
+# Loading work.cin2op(dataflow)
+# Loading work.branchcondition(dataflow)
+# Loading work.romdecoder(data_flow)
+# Loading work.genericdecoder(decode)
+# Loading work.fmapping(data_flow)
+# Loading work.fmapperalu(dataflow)
+# Loading work.twoopmapper(dataflow)
+# Loading work.controller(mycontroller)
+# Loading work.regfile(reg)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# Loading work.alsu(arch)
+# Loading work.part_a(my_design)
+# Loading work.mux2(dataflow)
+# Loading work.mux4(structural)
+# Loading work.nbitadder(my_nbitadder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.part_b(statements)
+# Loading work.part_c(shifts)
+# Loading work.part_d(shifts)
+# Loading work.ram(myram)
+# Loading work.flagregister(dataflow)
+# Loading work.srcdstdecoder(data_flow)
+add wave -position insertpoint  \
+sim:/romcontroller/Instruction \
+sim:/romcontroller/CarryFlag \
+sim:/romcontroller/ZeroFlag \
+sim:/romcontroller/MicroPC \
+sim:/romcontroller/NextMicroPC \
+sim:/romcontroller/ROMDecoder/RdstinC \
+sim:/romcontroller/BranchCond/Result \
+sim:/romcontroller/Clock 
+
+mem load -i {C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RomBits.mem} /romcontroller/ROM/ROM
+#Label1: ADD R1,@(R2)+
+force -freeze sim:/romcontroller/CarryFlag 0 0
+force -freeze sim:/romcontroller/ZeroFlag 1 0
+force -freeze sim:/romcontroller/Instruction 16'h106A 0
+run 600ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecDst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecSrc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F9Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F7Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F6Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F5Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F2Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F1Decoder
+# Paste insertion failed: vsim: (vish-4014) No objects found matching 'vsim'.
+# Paste insertion failed: work.RomController: (vish-4014) No objects found matching 'work.RomController'.
+# Paste insertion failed: add: (vish-4014) No objects found matching 'add'.
+# Paste insertion failed: wave: (vish-4014) No objects found matching 'wave'.
+# Paste insertion failed: -position: Unrecognized option: "-position" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: insertpoint: (vish-4014) No objects found matching 'insertpoint'.
+# Paste insertion failed:  sim:/romcontroller/Instruction: (vish-4014) No objects found matching ' sim:/romcontroller/Instruction'.
+# Paste insertion failed:  sim:/romcontroller/CarryFlag: (vish-4014) No objects found matching ' sim:/romcontroller/CarryFlag'.
+# Paste insertion failed:  sim:/romcontroller/ZeroFlag: (vish-4014) No objects found matching ' sim:/romcontroller/ZeroFlag'.
+# Paste insertion failed:  sim:/romcontroller/MicroPC: (vish-4014) No objects found matching ' sim:/romcontroller/MicroPC'.
+# Paste insertion failed:  sim:/romcontroller/NextMicroPC: (vish-4014) No objects found matching ' sim:/romcontroller/NextMicroPC'.
+# Paste insertion failed:  sim:/romcontroller/ROMDecoder/RdstinC: (vish-4014) No objects found matching ' sim:/romcontroller/ROMDecoder/RdstinC'.
+# Paste insertion failed:  sim:/romcontroller/BranchCond/Result: (vish-4014) No objects found matching ' sim:/romcontroller/BranchCond/Result'.
+# Paste insertion failed:  sim:/romcontroller/Clock: (vish-4014) No objects found matching ' sim:/romcontroller/Clock'.
+# Paste insertion failed: mem: (vish-4014) No objects found matching 'mem'.
+# Paste insertion failed: load: (vish-4014) No objects found matching 'load'.
+# Paste insertion failed: -i: Missing signal name or pattern.
+# Paste insertion failed: C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RomBits.mem: Unrecognized dataset prefix: C
+# Paste insertion failed: #Label1:: (vish-4014) No objects found matching '#Label1:'.
+# Paste insertion failed: ADD: (vish-4014) No objects found matching 'ADD'.
+# Paste insertion failed: R1,@(R2)+: (vish-4014) No objects found matching 'R1,@(R2)+'.
+# Paste insertion failed: force: (vish-4014) No objects found matching 'force'.
+# Paste insertion failed: -freeze: Unrecognized option: "-freeze" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: 0: (vish-4014) No objects found matching '0'.
+# Paste insertion failed: 0: (vish-4014) No objects found matching '0'.
+# Paste insertion failed: force: (vish-4014) No objects found matching 'force'.
+# Paste insertion failed: -freeze: Unrecognized option: "-freeze" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: 1: (vish-4014) No objects found matching '1'.
+# Paste insertion failed: 0: (vish-4014) No objects found matching '0'.
+# Paste insertion failed: force: (vish-4014) No objects found matching 'force'.
+# Paste insertion failed: -freeze: Unrecognized option: "-freeze" ignored.
+# Missing signal name or pattern.
+# Paste insertion failed: 16'h106A: (vish-4014) No objects found matching '16'h106A'.
+# Paste insertion failed: 0: (vish-4014) No objects found matching '0'.
+# Paste insertion failed: run: (vish-4014) No objects found matching 'run'.
+# Paste insertion failed: 600ns: (vish-4014) No objects found matching '600ns'.
+vsim work.RomController
+# End time: 00:37:26 on Dec 20,2018, Elapsed time: 0:01:24
+# Errors: 35, Warnings: 9
+# vsim work.RomController 
+# Start time: 00:37:26 on Dec 20,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.romcontroller(dataflow)
+# Loading work.newromaddress(dataflow)
+# Loading work.rom(myrom)
+# Loading work.decodingcircuit(decoding)
+# Loading work.cingen(dataflow)
+# Loading work.cin1op(dataflow)
+# Loading work.cin2op(dataflow)
+# Loading work.branchcondition(dataflow)
+# Loading work.romdecoder(data_flow)
+# Loading work.genericdecoder(decode)
+# Loading work.fmapping(data_flow)
+# Loading work.fmapperalu(dataflow)
+# Loading work.twoopmapper(dataflow)
+# Loading work.controller(mycontroller)
+# Loading work.regfile(reg)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# Loading work.alsu(arch)
+# Loading work.part_a(my_design)
+# Loading work.mux2(dataflow)
+# Loading work.mux4(structural)
+# Loading work.nbitadder(my_nbitadder)
+# Loading work.my_adder(a_my_adder)
+# Loading work.part_b(statements)
+# Loading work.part_c(shifts)
+# Loading work.part_d(shifts)
+# Loading work.ram(myram)
+# Loading work.flagregister(dataflow)
+# Loading work.srcdstdecoder(data_flow)
+add wave -position insertpoint  \
+sim:/romcontroller/Instruction \
+sim:/romcontroller/CarryFlag \
+sim:/romcontroller/ZeroFlag \
+sim:/romcontroller/MicroPC \
+sim:/romcontroller/NextMicroPC \
+sim:/romcontroller/ROMDecoder/RdstinC \
+sim:/romcontroller/BranchCond/Result \
+sim:/romcontroller/Clock 
+
+mem load -i {C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/RomBits.mem} /romcontroller/ROM/ROM
+#Label1: ADD R1,@(R2)+
+force -freeze sim:/romcontroller/CarryFlag 0 0
+force -freeze sim:/romcontroller/ZeroFlag 1 0
+force -freeze sim:/romcontroller/Instruction 16'h106A 0
+run 600ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/MEM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecDst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/Controller/GenReg/MyDecSrc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F9Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F7Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F6Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F5Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F2Decoder
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /romcontroller/ROMDecoder/F1Decoder

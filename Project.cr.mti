@@ -1,18 +1,27 @@
-{D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/decoder.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/decoder.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
-
-} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/TwoOpMapper.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/TwoOpMapper.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
-
-} {3.0 4.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_D.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_D.vhd
+C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_D.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_D.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity Part_D
 -- Compiling architecture Shifts of Part_D
+
+} {} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/TwoOpMapper.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/TwoOpMapper.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/decoder.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/decoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Compiling entity decoder
+-- Compiling architecture a_decoder of decoder
 
 } {} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/TwoOpMapper.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/TwoOpMapper.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -22,16 +31,11 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity TwoOpMapper
 -- Compiling architecture Dataflow of TwoOpMapper
 
-} {} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoder.vhd
+} {} {}} D:/CMP/ModelSim/modelsim_ase/win32aloem/genericDecoder.vhd {0 {vcom -work work -2002 -explicit -stats=none D:/CMP/ModelSim/modelsim_ase/win32aloem/genericDecoder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package MATH_REAL
--- Compiling entity decoder
--- Compiling architecture a_decoder of decoder
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
 
-} {} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Fmapping.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Fmapping.vhd
+} {3.0 4.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Fmapping.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Fmapping.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -41,11 +45,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity FMapping
 -- Compiling architecture Data_Flow of FMapping
 
-} {} {}} D:/CMP/ModelSim/modelsim_ase/win32aloem/genericDecoder.vhd {0 {vcom -work work -2002 -explicit -stats=none D:/CMP/ModelSim/modelsim_ase/win32aloem/genericDecoder.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
-
-} {3.0 4.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Cin2op.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Cin2op.vhd
+} {} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Cin2op.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Cin2op.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -168,6 +168,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity my_adder
 -- Compiling architecture a_my_adder of my_adder
 
+} {} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/NewRomAddress.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/NewRomAddress.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity NewRomAddress
+-- Compiling architecture dataFlow of NewRomAddress
+
 } {} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROM.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROM.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -181,16 +189,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 ** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
 
-} {3.0 4.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/MotherBoard.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/MotherBoard.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity MotherBoard
-** Error: C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/MotherBoard.vhd(8): near ")": (vcom-1576) expecting IDENTIFIER.
-
-} {8.0 9.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_A.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_A.vhd
+} {3.0 4.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_A.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_A.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -306,7 +305,11 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity tristate
 -- Compiling architecture tri of tristate
 
-} {} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/my_adder.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/my_adder.vhd}
+} {} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Register.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Register.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/my_adder.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/my_adder.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 ** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
 
@@ -318,7 +321,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 ** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
 
-} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Register.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Register.vhd}
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_A.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_A.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 ** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
 
@@ -331,15 +334,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity genericDecoder
 -- Compiling architecture Decode of genericDecoder
 
-} {} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_A.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_A.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
-
-} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_C.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_C.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
-
-} {3.0 4.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/NBitAdder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/NBitAdder.vhd
+} {} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/NBitAdder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/NBitAdder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -347,19 +342,11 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity NBitAdder
 -- Compiling architecture my_nbitadder of NBitAdder
 
-} {} {}} decoderProject.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoderProject.vhd
+} {} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_C.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Part_C.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 ** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
 
-} {3.0 4.0} {}} D:/CMP/ModelSim/modelsim_ase/win32aloem/SrcDstDecoder.vhd {0 {vcom -work work -2002 -explicit -stats=none D:/CMP/ModelSim/modelsim_ase/win32aloem/SrcDstDecoder.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
-
-} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/mux2.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/mux2.vhd}
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
-
-} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Controller.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Controller.vhd}
+} {3.0 4.0} {}} decoderProject.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/decoderProject.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 ** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
 
@@ -371,4 +358,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Part_B
 -- Compiling architecture Statements of Part_B
 
-} {} {}}
+} {} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Controller.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/Controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/mux2.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/mux2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}} D:/CMP/ModelSim/modelsim_ase/win32aloem/SrcDstDecoder.vhd {0 {vcom -work work -2002 -explicit -stats=none D:/CMP/ModelSim/modelsim_ase/win32aloem/SrcDstDecoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
+
+} {3.0 4.0} {}}
