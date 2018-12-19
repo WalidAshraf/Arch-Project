@@ -79,20 +79,6 @@ force -freeze sim:/controller/ALSU_S1 0 0
 force -freeze sim:/controller/ALSU_S2 0 0
 force -freeze sim:/controller/ALSU_S3 0 0
 force -freeze sim:/controller/dst 3'h7 0
-run 50
-
-#force -freeze sim:/controller/src_enB 0 0
-#force -freeze sim:/controller/src_enA 0 0
-#run 10
-
-#noforce sim:/controller/busA
-#noforce sim:/controller/busB
-noforce sim:/controller/busC
-#force -freeze sim:/controller/src_enB 0 0
 force -freeze sim:/controller/cin 0 0
 force -freeze sim:/controller/IR_enC 0 0
-#force -freeze sim:/controller/src 3'h7 0
-#force -freeze sim:/controller/dst 3'h7 0
-#force -freeze sim:/controller/src_enB 1 0
-#force -freeze sim:/controller/dst_en 1 0
-run 100
+run 150

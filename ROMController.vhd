@@ -5,7 +5,7 @@ GENERIC(RAMAddressBits: integer :=16;
 	registers: integer :=8;
 	RegWordSize: integer :=16;
 	ROMAddressBits: integer := 6;
-	ROMWordSize: integer := 20;
+	ROMWordSize: integer := 27;
 	RAMWordSize: integer := 16);
 port	(Instruction: in std_logic_vector(RAMWordSize - 1 downto 0);
 	 Carry, Zero: in std_logic);
@@ -35,6 +35,7 @@ SIGNAL AddressBits: std_logic_vector (5 downto 0);
 SIGNAL modeSRC, modeDST: std_logic_vector (1 downto 0);
 SIGNAL b8: std_logic;
 SIGNAL FMappedDecoded: STD_LOGIC_VECTOR(3 DOWNTO 0);
+SIGNAL CleanControlWord: std_logic_vector (17 downto 0);
 BEGIN
 	PROCESS
 	BEGIN
@@ -49,15 +50,16 @@ BEGIN
 	AddressBits <= ControlWord(8 downto 3);
 	BranchType <= ControlWord(2 downto 0);
 	b8 <= Instruction(8);
+	CleanControlWord <= ControlWord(26 downto 9);
 	--Ctrl: ENTITY work.Controller GENERIC MAP(RAMAddressBits, registers, RAMWordSize);
 	NewAdd: ENTITY work.NewRomAddress PORT MAP(AddressBits, BranchType, modeSRC, --Performs bit ORING if needed
 						      modeDST, InstructionType, SrcIndirect, DstIndirect,
 						      TwoOp, OneOp, Branch, NoOp, CMP, MOV,
 						      Result, b8, NextMicroPC);
-							
+
 	ROM: ENTITY work.ROM GENERIC MAP(ROMAddressBits, ROMWordSize) PORT MAP(MicroPC, ControlWord);  --Fetch from ROM
 	DC: ENTITY work.DecodingCircuit PORT MAP(Instruction, OneOp, TwoOp,  --Gets Instruction type as well as MOV and CMP
-						 Branch, NoOp, MOV, CMP, SrcIndirect, DstIndirect); 
+						 Branch, NoOp, MOV, CMP, SrcIndirect, DstIndirect);
 	C: ENTITY work.CinGen PORT MAP(Instruction, Carry, OneOp, TwoOp, cin);	--Osama's IR dependent ALU cin
 	BranchCond: ENTITY work.BranchCondition PORT MAP(Instruction, CarryFlag, ZeroFlag, Result);	--Checks if branching condition is met
 	ROMDecoder: ENTITY work.RomDecoder PORT MAP(ControlWord,PCoutA,RsrcoutA,RdstoutA,MARinA,MARinC, --Decode ROM control word
@@ -67,10 +69,10 @@ BEGIN
 	FmapEntity: ENTITY work.FMapping PORT MAP(AplusB, Aminus1, A, Aplus1, Fmap);	--Walid's ALU function mapper
 	ALUmap: ENTITY work.FmapperALU PORT MAP(Instruction, TwoOp, OneOp, FmapALU);	--Osama's IR dependent ALU function mapper
 
-	Controller: ENTITY work.Controller GENERIC MAP(16,8,16) PORT MAP(MARinA,'0', MARinC, MDRinC, MDRinB, MDRoutA,enA,enB, 
-	enC,rstController,clk, we, mem_clk, TEMPoutB, TEMPinC,TEMPoutA, IRinC, 
+	Controller: ENTITY work.Controller GENERIC MAP(16,8,16) PORT MAP(MARinA,'0', MARinC, MDRinC, MDRinB, MDRoutA,enA,enB,
+	enC,rstController,clk, we, mem_clk, TEMPoutB, TEMPinC,TEMPoutA, IRinC,
 	IRoutA,FMappedDecoded(0),FMappedDecoded(1),FMappedDecoded(2),FMappedDecoded(3),cinController,ALU,CarryFlag,ZeroFlag,busA,busC,busB,Src,Dst);-- WATCHOUT RST.CLK,WE,MEM_CLK NOT INIT
-	
+
 	SrcDstDec: ENTITY work.SrcDstDecoder PORT MAP(Instruction,RsrcoutA,RsrcoutB,RsrcinC,RdstoutA,RdstoutB,RdstinC,OneOp,TwoOp,Src,Dst,enA,enB,enC);
 
 	cinController <= CinRom when ALU = '0'

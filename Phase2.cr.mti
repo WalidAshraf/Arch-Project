@@ -1,4 +1,19 @@
-{C:/Modeltech_pe_edu_10.4a/examples/Phase 2/CinGen.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/CinGen.vhd}
+{C:/Modeltech_pe_edu_10.4a/examples/Phase 2/Controller.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/Controller.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package NUMERIC_STD
+-- Compiling entity Controller
+-- Compiling architecture MyController of Controller
+-- Loading entity RegFile
+-- Loading entity ALSU
+-- Loading entity MyRegister
+-- Loading entity tristate
+-- Loading entity RAM
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/CinGen.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/CinGen.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -15,6 +30,15 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package std_logic_1164
 -- Compiling entity Mux2
 -- Compiling architecture Dataflow of Mux2
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/FmapperALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/FmapperALU.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FmapperALU
+-- Compiling architecture Dataflow of FmapperALU
+-- Loading entity TwoOpMapper
 
 } {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/BranchCondition.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/BranchCondition.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -49,6 +73,14 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity ROM
 -- Compiling architecture MyROM of ROM
 
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/mux4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/mux4.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux4
+-- Compiling architecture Structural of Mux4
+
 } {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/DecodingCircuit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/DecodingCircuit.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
@@ -57,14 +89,6 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package NUMERIC_STD
 -- Compiling entity DecodingCircuit
 -- Compiling architecture Decoding of DecodingCircuit
-
-} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/tristate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/tristate.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity tristate
--- Compiling architecture tri of tristate
 
 } {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/RAM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/RAM.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -75,6 +99,14 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity RAM
 -- Compiling architecture MyRAM of ram
 
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/tristate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/tristate.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tristate
+-- Compiling architecture tri of tristate
+
 } {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/ROMController.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/ROMController.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
@@ -82,10 +114,26 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package std_logic_1164
 -- Compiling entity ROMController
 -- Compiling architecture Dataflow of ROMController
+-- Loading entity NewRomAddress
 -- Loading package NUMERIC_STD
 -- Loading entity ROM
 -- Loading entity DecodingCircuit
 -- Loading entity CinGen
+-- Loading entity BranchCondition
+-- Loading entity RomDecoder
+-- Loading package MATH_REAL
+-- Loading entity FMapping
+-- Loading entity FmapperALU
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/Fmapping.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/Fmapping.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MATH_REAL
+-- Loading package NUMERIC_STD
+-- Compiling entity FMapping
+-- Compiling architecture Data_Flow of FMapping
 
 } {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/Cin1op.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/Cin1op.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -103,8 +151,6 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package NUMERIC_STD
 -- Compiling entity Decoder2_4
 -- Compiling architecture Decode of Decoder2_4
--- Compiling architecture TEST of Decoder2_4
--- Loading entity Decoder2_4
 
 } {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/Cin2op.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/Cin2op.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -114,14 +160,14 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity Cin2op
 -- Compiling architecture Dataflow of Cin2op
 
-} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/RegisterFile.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/RegisterFile.vhd}
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/genericDecoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/genericDecoder.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package MATH_REAL
--- Compiling entity RegFile
--- Compiling architecture Reg of RegFile
+-- Loading package NUMERIC_STD
+-- Compiling entity genericDecoder
+-- Compiling architecture Decode of genericDecoder
 
 } {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/my_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/my_adder.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -139,13 +185,22 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity MyRegister
 -- Compiling architecture Reg of MyRegister
 
-} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/OneOpMapper.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/OneOpMapper.vhd}
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/RegisterFile.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/RegisterFile.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity OneOpMapper
--- Compiling architecture Dataflow of OneOpMapper
+-- Loading package MATH_REAL
+-- Compiling entity RegFile
+-- Compiling architecture Reg of RegFile
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/decoderProject.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/decoderProject.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity RomDecoder
+-- Compiling architecture data_flow of RomDecoder
 
 } {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/TwoOpMapper.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/TwoOpMapper.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -154,6 +209,14 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package std_logic_1164
 -- Compiling entity TwoOpMapper
 -- Compiling architecture Dataflow of TwoOpMapper
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/FlagRegisterFile.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/FlagRegisterFile.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FlagRegister
+-- Compiling architecture DataFlow of FlagRegister
 
 } {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/Part_A.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/Part_A.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -170,6 +233,14 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package std_logic_1164
 -- Compiling entity Part_B
 -- Compiling architecture Statements of Part_B
+
+} {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/SrcDstDecoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/SrcDstDecoder.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity srcdstDecoder
+-- Compiling architecture Data_Flow of srcdstDecoder
 
 } {} {}} {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/Part_C.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Modeltech_pe_edu_10.4a/examples/Phase 2/Part_C.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015

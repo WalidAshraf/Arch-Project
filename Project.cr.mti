@@ -53,6 +53,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Cin2op
 -- Compiling architecture Dataflow of Cin2op
 
+} {} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/FlagRegisterFile.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/FlagRegisterFile.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FlagRegister
+-- Compiling architecture DataFlow of FlagRegister
+
 } {} {}} {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/CinGen.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/CMP/College/3rd Year/1st Term/Computer Architecture/Project/Phase-2.1/CinGen.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 ** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
@@ -160,14 +168,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity my_adder
 -- Compiling architecture a_my_adder of my_adder
 
-} {} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/NewRomAddress.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/NewRomAddress.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity NewRomAddress
--- Compiling architecture dataFlow of NewRomAddress
-
 } {} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROM.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROM.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -181,7 +181,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 ** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
 
-} {3.0 4.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_A.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_A.vhd
+} {3.0 4.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/MotherBoard.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/MotherBoard.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MotherBoard
+** Error: C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/MotherBoard.vhd(8): near ")": (vcom-1576) expecting IDENTIFIER.
+
+} {8.0 9.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_A.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/Part_A.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -271,27 +280,7 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 ** Error: (vcom-66) Execution of vlib.exe failed. Please check the error log for more details.
 
-} {3.0 4.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROMController.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ROMController.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity ROMController
--- Compiling architecture Dataflow of ROMController
--- Loading entity NewRomAddress
--- Loading package NUMERIC_STD
--- Loading entity ROM
--- Loading entity DecodingCircuit
--- Loading entity CinGen
--- Loading entity BranchCondition
--- Loading entity RomDecoder
--- Loading package MATH_REAL
--- Loading entity FMapping
--- Loading entity FmapperALU
--- Loading entity Controller
--- Loading entity srcdstDecoder
-
-} {} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/CinGen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/CinGen.vhd
+} {3.0 4.0} {}} C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/CinGen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/CinGen.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO

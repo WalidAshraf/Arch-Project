@@ -46,7 +46,7 @@ No1,MARINA,MDROUTA,MDRinB,tempoutb,No6,Wr,WMFC,No9,No10,30,0
 No1,No2,MDROUTA,No4,tempoutb,F=alu,End,No8,No9,No10,30,0
 No1,No2,No3,No4,No5,No6,No7,No8,No9,No10,30,0
 No1,No2,No3,No4,No5,No6,No7,No8,No9,No10,30,0
-RdstoutA,MARINC,No3,MDRinB,tempoutb,F=A-1,Wr,WMFC,No9,No10,30,0
+RdstoutA,MARINC,No3,MDRinB,tempoutb,F=A-1,Wr,WMFC,RDSTINC,No10,30,0
 RdstoutA,MARINC,No3,No4,No5,F=A-1,Rd,WMFC,RDSTINC,No10,42,0
 RdstoutA,No2,No3,No4,tempoutb,F=Alu,End,No8,RDSTINC,No10,30,0
 No1,No2,MDROUTA,No4,tempoutb,F=Alu,End,No8,RDSTINC,No10,30,0
