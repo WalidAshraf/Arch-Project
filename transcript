@@ -1,2 +1,35 @@
 # Reading D:/CMP/ModelSim/modelsim_ase/tcl/vsim/pref.tcl
 # OpenFile C:/Users/Owner/GitHubRepos/ArchProject/Arch-Project/ALSU.vhd
+# Loading project Project
+# Compile of Controller.vhd was successful.
+# Compile of TwoOpMapper.vhd was successful.
+# Compile of ALSU.vhd was successful.
+# Compile of BranchCondition.vhd was successful.
+# Compile of Cin1op.vhd was successful.
+# Compile of Cin2op.vhd was successful.
+# Compile of CinGen.vhd was successful.
+# Compile of Controller.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of Decoder2_4.vhd was successful.
+# Compile of decoderProject.vhd was successful.
+# Compile of DecodingCircuit.vhd was successful.
+# Compile of genericDecoder.vhd was successful.
+# Compile of mux2.vhd was successful.
+# Compile of my_adder.vhd was successful.
+# Compile of NBitAdder.vhd was successful.
+# Compile of OneOpMapper.vhd was successful.
+# Compile of Part_A.vhd was successful.
+# Compile of Part_B.vhd was successful.
+# Compile of Part_C.vhd was successful.
+# Compile of Part_D.vhd was successful.
+# Compile of RAM.vhd was successful.
+# Compile of Register.vhd was successful.
+# Compile of RegisterFile.vhd was successful.
+# Compile of ROM.vhd was successful.
+# Compile of ROMController.vhd was successful.
+# Compile of SrcDstDecoder.vhd was successful.
+# Compile of tristate.vhd was successful.
+# Compile of Fmapping.vhd was successful.
+# Compile of FlagRegisterFile.vhd was successful.
+# Compile of NewRomAddress.vhd was successful.
+# 30 compiles, 0 failed with no errors.
