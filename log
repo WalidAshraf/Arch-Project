@@ -1,0 +1,889 @@
+# No design specified
+do RegisterFile.do -logfile log
+# vsim 
+# Start time: 17:33:43 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.regfile(reg)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /regfile/MyDecDst
+do RegisterFile.do
+# vsim 
+# Start time: 17:34:44 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.regfile(reg)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /regfile/MyDecDst
+vcom *.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 17:36:43 on Dec 11,2018
+# vcom -reportprogress 300 ALSU.vhd Decoder2_4.vhd NBitAdder.vhd Part_A.vhd Part_B.vhd Part_C.vhd Part_D.vhd RAM.vhd Register.vhd RegisterFile.vhd mux2.vhd my_adder.vhd tristate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALSU
+# -- Compiling architecture Arch of ALSU
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Decoder2_4
+# -- Compiling architecture Decode of Decoder2_4
+# -- Compiling entity NBitAdder
+# -- Compiling architecture my_nbitadder of NBitAdder
+# -- Compiling entity Part_A
+# -- Compiling architecture My_Design of Part_A
+# -- Compiling entity Part_B
+# -- Compiling architecture Statements of Part_B
+# -- Compiling entity Part_C
+# -- Compiling architecture Shifts of Part_C
+# -- Compiling entity Part_D
+# -- Compiling architecture Shifts of Part_D
+# -- Compiling entity RAM
+# -- Compiling architecture MyRAM of ram
+# -- Compiling entity MyRegister
+# -- Compiling architecture Reg of MyRegister
+# -- Loading package MATH_REAL
+# -- Compiling entity RegFile
+# -- Compiling architecture Reg of RegFile
+# -- Compiling entity Mux2
+# -- Compiling architecture Dataflow of Mux2
+# -- Compiling entity my_adder
+# -- Compiling architecture a_my_adder of my_adder
+# -- Compiling entity tristate
+# -- Compiling architecture tri of tristate
+# End time: 17:36:43 on Dec 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do RegisterFile.do
+# vsim 
+# Start time: 17:36:53 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.regfile(reg)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# ** Error: (vish-4014) No objects found matching '/regfile/dst_enA'.
+# (vish-4014) No objects found matching '/regfile/dst_enB'.
+# Error in macro ./RegisterFile.do line 19
+# (vish-4014) No objects found matching '/regfile/dst_enA'.
+# (vish-4014) No objects found matching '/regfile/dst_enB'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/regfile/my_busA \
+# sim:/regfile/my_busB \
+# sim:/regfile/my_busC \
+# sim:/regfile/src_en \
+# sim:/regfile/dst_enA \
+# si..."
+do RegisterFile.do
+# vsim 
+# Start time: 17:37:33 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.regfile(reg)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# ** Error: (vish-4014) No objects found matching '/regfile/dst_enA'.
+# (vish-4014) No objects found matching '/regfile/dst_enB'.
+# Error in macro ./RegisterFile.do line 19
+# (vish-4014) No objects found matching '/regfile/dst_enA'.
+# (vish-4014) No objects found matching '/regfile/dst_enB'.
+#     while executing
+# "add wave -position insertpoint  \
+# sim:/regfile/my_busA \
+# sim:/regfile/my_busB \
+# sim:/regfile/my_busC \
+# sim:/regfile/src_en \
+# sim:/regfile/dst_enA \
+# si..."
+do RegisterFile.do
+# vsim 
+# Start time: 17:38:03 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.regfile(reg)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /regfile/MyDecSrc
+do RegisterFile.do
+# vsim 
+# Start time: 17:38:42 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.regfile(reg)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /regfile/MyDecSrc
+do RegisterFile.do
+# vsim 
+# Start time: 17:39:16 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.regfile(reg)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /regfile/MyDecSrc
+do RegisterFile.do
+# vsim 
+# Start time: 17:39:44 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.regfile(reg)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /regfile/MyDecSrc
+do RegisterFile.do
+# vsim 
+# Start time: 17:42:24 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.regfile(reg)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /regfile/MyDecSrc
+do RegisterFile.do
+# vsim 
+# Start time: 17:44:36 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.regfile(reg)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /regfile/MyDecSrc
+add wave -position insertpoint  \
+sim:/regfile/src_en
+add wave -position insertpoint  \
+sim:/regfile/src_en
+do RegisterFile.do
+# vsim 
+# Start time: 17:52:11 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.regfile(reg)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /regfile/MyDecSrc
+vcom *.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 17:55:36 on Dec 11,2018
+# vcom -reportprogress 300 ALSU.vhd Decoder2_4.vhd NBitAdder.vhd Part_A.vhd Part_B.vhd Part_C.vhd Part_D.vhd RAM.vhd Register.vhd RegisterFile.vhd mux2.vhd my_adder.vhd tristate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALSU
+# -- Compiling architecture Arch of ALSU
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Decoder2_4
+# -- Compiling architecture Decode of Decoder2_4
+# -- Compiling entity NBitAdder
+# -- Compiling architecture my_nbitadder of NBitAdder
+# -- Compiling entity Part_A
+# -- Compiling architecture My_Design of Part_A
+# -- Compiling entity Part_B
+# -- Compiling architecture Statements of Part_B
+# -- Compiling entity Part_C
+# -- Compiling architecture Shifts of Part_C
+# -- Compiling entity Part_D
+# -- Compiling architecture Shifts of Part_D
+# -- Compiling entity RAM
+# -- Compiling architecture MyRAM of ram
+# -- Compiling entity MyRegister
+# -- Compiling architecture Reg of MyRegister
+# -- Loading package MATH_REAL
+# -- Compiling entity RegFile
+# -- Compiling architecture Reg of RegFile
+# -- Compiling entity Mux2
+# -- Compiling architecture Dataflow of Mux2
+# -- Compiling entity my_adder
+# -- Compiling architecture a_my_adder of my_adder
+# -- Compiling entity tristate
+# -- Compiling architecture tri of tristate
+# End time: 17:55:36 on Dec 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do RegisterFile.do
+# vsim 
+# Start time: 17:55:40 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.regfile(reg)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /regfile/MyDecSrc
+do RegisterFile.do
+# vsim 
+# Start time: 17:56:41 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.regfile(reg)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /regfile/MyDecSrc
+add wave -position insertpoint  \
+sim:/regfile/wordSize
+change sim:/regfile/registers 32'h7
+# ** Error: (vsim-3661) Unable to change '/regfile/registers': Unable to parse value "32'h7".
+# 
+change sim:/regfile/registers 32'h07
+# ** Error: (vsim-3661) Unable to change '/regfile/registers': Unable to parse value "32'h07".
+# 
+change sim:/regfile/registers 32'h5
+# ** Error: (vsim-3661) Unable to change '/regfile/registers': Unable to parse value "32'h5".
+# 
+change sim:/regfile/registers 32'h4
+# ** Error: (vsim-3661) Unable to change '/regfile/registers': Unable to parse value "32'h4".
+# 
+change sim:/regfile/registers 7
+# ** Warning: (vsim-3933) '/regfile/registers' is considered a constant, changing its value may have no effect.
+# 
+quit -sim
+vcom *.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 18:06:30 on Dec 11,2018
+# vcom -reportprogress 300 ALSU.vhd Decoder2_4.vhd NBitAdder.vhd Part_A.vhd Part_B.vhd Part_C.vhd Part_D.vhd RAM.vhd Register.vhd RegisterFile.vhd mux2.vhd my_adder.vhd tristate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALSU
+# -- Compiling architecture Arch of ALSU
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Decoder2_4
+# -- Compiling architecture Decode of Decoder2_4
+# -- Compiling entity NBitAdder
+# -- Compiling architecture my_nbitadder of NBitAdder
+# -- Compiling entity Part_A
+# -- Compiling architecture My_Design of Part_A
+# -- Compiling entity Part_B
+# -- Compiling architecture Statements of Part_B
+# -- Compiling entity Part_C
+# -- Compiling architecture Shifts of Part_C
+# -- Compiling entity Part_D
+# -- Compiling architecture Shifts of Part_D
+# -- Compiling entity RAM
+# -- Compiling architecture MyRAM of ram
+# -- Compiling entity MyRegister
+# -- Compiling architecture Reg of MyRegister
+# -- Loading package MATH_REAL
+# -- Compiling entity RegFile
+# -- Compiling architecture Reg of RegFile
+# -- Compiling entity Mux2
+# -- Compiling architecture Dataflow of Mux2
+# -- Compiling entity my_adder
+# -- Compiling architecture a_my_adder of my_adder
+# -- Compiling entity tristate
+# -- Compiling architecture tri of tristate
+# End time: 18:06:30 on Dec 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do RegisterFile.do
+# vsim 
+# Start time: 18:06:34 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.math_real(body)
+# Loading work.regfile(reg)
+# Loading ieee.numeric_std(body)
+# Loading work.decoder2_4(decode)
+# Loading work.myregister(reg)
+# Loading work.tristate(tri)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /regfile/MyDecSrc
+quit -sim
+vcom *.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 19:10:16 on Dec 11,2018
+# vcom -reportprogress 300 ALSU.vhd Decoder2_4.vhd DecodingCircuit.vhd NBitAdder.vhd Part_A.vhd Part_B.vhd Part_C.vhd Part_D.vhd RAM.vhd Register.vhd RegisterFile.vhd mux2.vhd my_adder.vhd tristate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALSU
+# -- Compiling architecture Arch of ALSU
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Decoder2_4
+# -- Compiling architecture Decode of Decoder2_4
+# -- Compiling entity DecodingCircuit
+# ** Error: DecodingCircuit.vhd(7): (vcom-1136) Unknown identifier "OneOp".
+# 
+# ** Error: DecodingCircuit.vhd(7): Bad resolution function (STD_LOGIC_VECTOR) for type (error).
+# ** Error: DecodingCircuit.vhd(7): near ":": (vcom-1576) expecting ';' or ')'.
+# 
+# ** Error: NBitAdder.vhd(1): VHDL Compiler exiting
+# End time: 19:10:17 on Dec 11,2018, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Compile of RegisterFile.vhd was successful.
+# Compile of DecodingCircuit.vhd failed with 3 errors.
+# Compile of DecodingCircuit.vhd failed with 1 errors.
+# Compile of DecodingCircuit.vhd failed with 1 errors.
+# Compile of DecodingCircuit.vhd failed with 19 errors.
+# Compile of DecodingCircuit.vhd failed with 11 errors.
+# Compile of DecodingCircuit.vhd failed with 3 errors.
+# Compile of DecodingCircuit.vhd failed with 2 errors.
+# Compile of DecodingCircuit.vhd failed with 1 errors.
+# Compile of DecodingCircuit.vhd was successful.
+vsim -gui work.decodingcircuit
+# vsim 
+# Start time: 20:06:26 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+add wave -position insertpoint  \
+sim:/decodingcircuit/Instruction \
+sim:/decodingcircuit/OneOp \
+sim:/decodingcircuit/TwoOp \
+sim:/decodingcircuit/Branch \
+sim:/decodingcircuit/NoOp \
+sim:/decodingcircuit/MOV \
+sim:/decodingcircuit/CMP \
+sim:/decodingcircuit/SrcDirect \
+sim:/decodingcircuit/SrcAutoInc \
+sim:/decodingcircuit/SrcAutoDec \
+sim:/decodingcircuit/SrcIndexed \
+sim:/decodingcircuit/DstDirect \
+sim:/decodingcircuit/DstAutoInc \
+sim:/decodingcircuit/DstAutoDec \
+sim:/decodingcircuit/DstIndexed \
+sim:/decodingcircuit/SrcIndirect \
+sim:/decodingcircuit/DstIndirect \
+sim:/decodingcircuit/ThreeZeros \
+sim:/decodingcircuit/ThreeOnes \
+sim:/decodingcircuit/MyTwoOp \
+sim:/decodingcircuit/MyBranch
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:08:06 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:09:29 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+add wave -position insertpoint  \
+sim:/decodingcircuit/NoOp
+force -freeze sim:/decodingcircuit/Instruction 16'h0000000000111111 0
+force -freeze sim:/decodingcircuit/Instruction 16'h0000000000111111 0
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:12:27 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:12:41 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+force -freeze sim:/decodingcircuit/Instruction 16'h0001001111000001 0
+run
+force -freeze sim:/decodingcircuit/Instruction 16'h0001001111000001 0
+run
+force -freeze sim:/decodingcircuit/Instruction 0001001111000001 0
+run
+run
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:14:59 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+add wave -position insertpoint  \
+sim:/decodingcircuit/Instruction \
+sim:/decodingcircuit/OneOp \
+sim:/decodingcircuit/TwoOp \
+sim:/decodingcircuit/Branch \
+sim:/decodingcircuit/NoOp \
+sim:/decodingcircuit/MOV \
+sim:/decodingcircuit/CMP \
+sim:/decodingcircuit/SrcDirect \
+sim:/decodingcircuit/SrcAutoInc \
+sim:/decodingcircuit/SrcAutoDec \
+sim:/decodingcircuit/SrcIndexed \
+sim:/decodingcircuit/DstDirect \
+sim:/decodingcircuit/DstAutoInc \
+sim:/decodingcircuit/DstAutoDec \
+sim:/decodingcircuit/DstIndexed \
+sim:/decodingcircuit/SrcIndirect \
+sim:/decodingcircuit/DstIndirect
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:15:59 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:21:39 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+# ** Error: invalid command name "0000000111111101"
+# Error in macro ./DecodingCircuit.do line 35
+# invalid command name "0000000111111101"
+#     while executing
+# "0000000111111101"
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:22:54 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+vcom *.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 20:26:49 on Dec 11,2018
+# vcom -reportprogress 300 ALSU.vhd Decoder2_4.vhd DecodingCircuit.vhd NBitAdder.vhd Part_A.vhd Part_B.vhd Part_C.vhd Part_D.vhd RAM.vhd Register.vhd RegisterFile.vhd mux2.vhd my_adder.vhd tristate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALSU
+# -- Compiling architecture Arch of ALSU
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Decoder2_4
+# -- Compiling architecture Decode of Decoder2_4
+# -- Compiling entity DecodingCircuit
+# -- Compiling architecture Decoding of DecodingCircuit
+# -- Compiling entity NBitAdder
+# -- Compiling architecture my_nbitadder of NBitAdder
+# -- Compiling entity Part_A
+# -- Compiling architecture My_Design of Part_A
+# -- Compiling entity Part_B
+# -- Compiling architecture Statements of Part_B
+# -- Compiling entity Part_C
+# -- Compiling architecture Shifts of Part_C
+# -- Compiling entity Part_D
+# -- Compiling architecture Shifts of Part_D
+# -- Compiling entity RAM
+# -- Compiling architecture MyRAM of ram
+# -- Compiling entity MyRegister
+# -- Compiling architecture Reg of MyRegister
+# -- Loading package MATH_REAL
+# -- Compiling entity RegFile
+# -- Compiling architecture Reg of RegFile
+# -- Compiling entity Mux2
+# -- Compiling architecture Dataflow of Mux2
+# -- Compiling entity my_adder
+# -- Compiling architecture a_my_adder of my_adder
+# -- Compiling entity tristate
+# -- Compiling architecture tri of tristate
+# End time: 20:26:50 on Dec 11,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:26:54 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+add wave -position insertpoint  \
+sim:/decodingcircuit/ThreeZeros
+add wave -position insertpoint  \
+sim:/decodingcircuit/ThreeZeros
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:28:25 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+vcom *.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 20:30:29 on Dec 11,2018
+# vcom -reportprogress 300 ALSU.vhd Decoder2_4.vhd DecodingCircuit.vhd NBitAdder.vhd Part_A.vhd Part_B.vhd Part_C.vhd Part_D.vhd RAM.vhd Register.vhd RegisterFile.vhd mux2.vhd my_adder.vhd tristate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALSU
+# -- Compiling architecture Arch of ALSU
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Decoder2_4
+# -- Compiling architecture Decode of Decoder2_4
+# -- Compiling entity DecodingCircuit
+# -- Compiling architecture Decoding of DecodingCircuit
+# -- Compiling entity NBitAdder
+# -- Compiling architecture my_nbitadder of NBitAdder
+# -- Compiling entity Part_A
+# -- Compiling architecture My_Design of Part_A
+# -- Compiling entity Part_B
+# -- Compiling architecture Statements of Part_B
+# -- Compiling entity Part_C
+# -- Compiling architecture Shifts of Part_C
+# -- Compiling entity Part_D
+# -- Compiling architecture Shifts of Part_D
+# -- Compiling entity RAM
+# -- Compiling architecture MyRAM of ram
+# -- Compiling entity MyRegister
+# -- Compiling architecture Reg of MyRegister
+# -- Loading package MATH_REAL
+# -- Compiling entity RegFile
+# -- Compiling architecture Reg of RegFile
+# -- Compiling entity Mux2
+# -- Compiling architecture Dataflow of Mux2
+# -- Compiling entity my_adder
+# -- Compiling architecture a_my_adder of my_adder
+# -- Compiling entity tristate
+# -- Compiling architecture tri of tristate
+# End time: 20:30:30 on Dec 11,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:30:34 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+vcom *.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 20:37:51 on Dec 11,2018
+# vcom -reportprogress 300 ALSU.vhd Decoder2_4.vhd DecodingCircuit.vhd NBitAdder.vhd Part_A.vhd Part_B.vhd Part_C.vhd Part_D.vhd RAM.vhd Register.vhd RegisterFile.vhd mux2.vhd my_adder.vhd tristate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALSU
+# -- Compiling architecture Arch of ALSU
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Decoder2_4
+# -- Compiling architecture Decode of Decoder2_4
+# -- Compiling entity DecodingCircuit
+# -- Compiling architecture Decoding of DecodingCircuit
+# ** Error: DecodingCircuit.vhd(32): near "std_logic": (vcom-1576) expecting ':'.
+# 
+# ** Error: DecodingCircuit.vhd(40): (vcom-1136) Unknown identifier "NoOpOrBranch".
+# 
+# ** Error: DecodingCircuit.vhd(40): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: DecodingCircuit.vhd(41): (vcom-1136) Unknown identifier "NoOpOrBranch".
+# 
+# ** Error: DecodingCircuit.vhd(41): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: DecodingCircuit.vhd(54): Illegal target for signal assignment.
+# ** Error: DecodingCircuit.vhd(54): (vcom-1136) Unknown identifier "NoOpOrBranch".
+# 
+# ** Error: DecodingCircuit.vhd(55): near "END": (vcom-1576) expecting ';'.
+# 
+# ** Error: NBitAdder.vhd(3): near "is": (vcom-1576) expecting ';'.
+# 
+# ** Error: NBitAdder.vhd(6): near "in": syntax error
+# ** Error: NBitAdder.vhd(7): Statement cannot be labeled.
+# ** Error: NBitAdder.vhd(7): near "out": syntax error
+# ** Error: NBitAdder.vhd(8): Statement cannot be labeled.
+# ** Error: NBitAdder.vhd(8): near "out": syntax error
+# ** Error: Part_A.vhd(1): VHDL Compiler exiting
+# End time: 20:37:51 on Dec 11,2018, Elapsed time: 0:00:00
+# Errors: 15, Warnings: 0
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+vcom *.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 20:38:45 on Dec 11,2018
+# vcom -reportprogress 300 ALSU.vhd Decoder2_4.vhd DecodingCircuit.vhd NBitAdder.vhd Part_A.vhd Part_B.vhd Part_C.vhd Part_D.vhd RAM.vhd Register.vhd RegisterFile.vhd mux2.vhd my_adder.vhd tristate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALSU
+# -- Compiling architecture Arch of ALSU
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Decoder2_4
+# -- Compiling architecture Decode of Decoder2_4
+# -- Compiling entity DecodingCircuit
+# -- Compiling architecture Decoding of DecodingCircuit
+# ** Error: DecodingCircuit.vhd(32): near "std_logic": (vcom-1576) expecting ':'.
+# 
+# ** Error: DecodingCircuit.vhd(40): (vcom-1136) Unknown identifier "NoOpOrBranch".
+# 
+# ** Error: DecodingCircuit.vhd(40): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: DecodingCircuit.vhd(41): (vcom-1136) Unknown identifier "NoOpOrBranch".
+# 
+# ** Error: DecodingCircuit.vhd(41): Type error resolving infix expression "and" as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: DecodingCircuit.vhd(54): Illegal target for signal assignment.
+# ** Error: DecodingCircuit.vhd(54): (vcom-1136) Unknown identifier "NoOpOrBranch".
+# 
+# ** Error: DecodingCircuit.vhd(55): near "END": (vcom-1576) expecting ';'.
+# 
+# ** Error: NBitAdder.vhd(3): near "is": (vcom-1576) expecting ';'.
+# 
+# ** Error: NBitAdder.vhd(6): near "in": syntax error
+# ** Error: NBitAdder.vhd(7): Statement cannot be labeled.
+# ** Error: NBitAdder.vhd(7): near "out": syntax error
+# ** Error: NBitAdder.vhd(8): Statement cannot be labeled.
+# ** Error: NBitAdder.vhd(8): near "out": syntax error
+# ** Error: Part_A.vhd(1): VHDL Compiler exiting
+# End time: 20:38:45 on Dec 11,2018, Elapsed time: 0:00:00
+# Errors: 15, Warnings: 0
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Compile of DecodingCircuit.vhd failed with 8 errors.
+# Compile of DecodingCircuit.vhd failed with 1 errors.
+# Compile of DecodingCircuit.vhd was successful.
+# Compile of NBitAdder.vhd was successful.
+vcom *.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 20:39:28 on Dec 11,2018
+# vcom -reportprogress 300 ALSU.vhd Decoder2_4.vhd DecodingCircuit.vhd NBitAdder.vhd Part_A.vhd Part_B.vhd Part_C.vhd Part_D.vhd RAM.vhd Register.vhd RegisterFile.vhd mux2.vhd my_adder.vhd tristate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALSU
+# -- Compiling architecture Arch of ALSU
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Decoder2_4
+# -- Compiling architecture Decode of Decoder2_4
+# -- Compiling entity DecodingCircuit
+# -- Compiling architecture Decoding of DecodingCircuit
+# -- Compiling entity NBitAdder
+# -- Compiling architecture my_nbitadder of NBitAdder
+# -- Compiling entity Part_A
+# -- Compiling architecture My_Design of Part_A
+# -- Compiling entity Part_B
+# -- Compiling architecture Statements of Part_B
+# -- Compiling entity Part_C
+# -- Compiling architecture Shifts of Part_C
+# -- Compiling entity Part_D
+# -- Compiling architecture Shifts of Part_D
+# -- Compiling entity RAM
+# -- Compiling architecture MyRAM of ram
+# -- Compiling entity MyRegister
+# -- Compiling architecture Reg of MyRegister
+# -- Loading package MATH_REAL
+# -- Compiling entity RegFile
+# -- Compiling architecture Reg of RegFile
+# -- Compiling entity Mux2
+# -- Compiling architecture Dataflow of Mux2
+# -- Compiling entity my_adder
+# -- Compiling architecture a_my_adder of my_adder
+# -- Compiling entity tristate
+# -- Compiling architecture tri of tristate
+# End time: 20:39:28 on Dec 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:39:34 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+vcom *.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 20:42:15 on Dec 11,2018
+# vcom -reportprogress 300 ALSU.vhd Decoder2_4.vhd DecodingCircuit.vhd NBitAdder.vhd Part_A.vhd Part_B.vhd Part_C.vhd Part_D.vhd RAM.vhd Register.vhd RegisterFile.vhd mux2.vhd my_adder.vhd tristate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALSU
+# -- Compiling architecture Arch of ALSU
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Decoder2_4
+# -- Compiling architecture Decode of Decoder2_4
+# -- Compiling entity DecodingCircuit
+# -- Compiling architecture Decoding of DecodingCircuit
+# -- Compiling entity NBitAdder
+# -- Compiling architecture my_nbitadder of NBitAdder
+# -- Compiling entity Part_A
+# -- Compiling architecture My_Design of Part_A
+# -- Compiling entity Part_B
+# -- Compiling architecture Statements of Part_B
+# -- Compiling entity Part_C
+# -- Compiling architecture Shifts of Part_C
+# -- Compiling entity Part_D
+# -- Compiling architecture Shifts of Part_D
+# -- Compiling entity RAM
+# -- Compiling architecture MyRAM of ram
+# -- Compiling entity MyRegister
+# -- Compiling architecture Reg of MyRegister
+# -- Loading package MATH_REAL
+# -- Compiling entity RegFile
+# -- Compiling architecture Reg of RegFile
+# -- Compiling entity Mux2
+# -- Compiling architecture Dataflow of Mux2
+# -- Compiling entity my_adder
+# -- Compiling architecture a_my_adder of my_adder
+# -- Compiling entity tristate
+# -- Compiling architecture tri of tristate
+# End time: 20:42:15 on Dec 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:42:18 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+vcom *.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 20:48:04 on Dec 11,2018
+# vcom -reportprogress 300 ALSU.vhd Decoder2_4.vhd DecodingCircuit.vhd NBitAdder.vhd Part_A.vhd Part_B.vhd Part_C.vhd Part_D.vhd RAM.vhd Register.vhd RegisterFile.vhd mux2.vhd my_adder.vhd tristate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALSU
+# -- Compiling architecture Arch of ALSU
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Decoder2_4
+# -- Compiling architecture Decode of Decoder2_4
+# -- Compiling entity DecodingCircuit
+# -- Compiling architecture Decoding of DecodingCircuit
+# -- Compiling entity NBitAdder
+# -- Compiling architecture my_nbitadder of NBitAdder
+# -- Compiling entity Part_A
+# -- Compiling architecture My_Design of Part_A
+# -- Compiling entity Part_B
+# -- Compiling architecture Statements of Part_B
+# -- Compiling entity Part_C
+# -- Compiling architecture Shifts of Part_C
+# -- Compiling entity Part_D
+# -- Compiling architecture Shifts of Part_D
+# -- Compiling entity RAM
+# -- Compiling architecture MyRAM of ram
+# -- Compiling entity MyRegister
+# -- Compiling architecture Reg of MyRegister
+# -- Loading package MATH_REAL
+# -- Compiling entity RegFile
+# -- Compiling architecture Reg of RegFile
+# -- Compiling entity Mux2
+# -- Compiling architecture Dataflow of Mux2
+# -- Compiling entity my_adder
+# -- Compiling architecture a_my_adder of my_adder
+# -- Compiling entity tristate
+# -- Compiling architecture tri of tristate
+# End time: 20:48:04 on Dec 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:48:08 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+vcom *.vhd
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 20:55:02 on Dec 11,2018
+# vcom -reportprogress 300 ALSU.vhd Decoder2_4.vhd DecodingCircuit.vhd NBitAdder.vhd Part_A.vhd Part_B.vhd Part_C.vhd Part_D.vhd RAM.vhd Register.vhd RegisterFile.vhd mux2.vhd my_adder.vhd tristate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALSU
+# -- Compiling architecture Arch of ALSU
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Decoder2_4
+# -- Compiling architecture Decode of Decoder2_4
+# -- Compiling entity DecodingCircuit
+# -- Compiling architecture Decoding of DecodingCircuit
+# -- Compiling entity NBitAdder
+# -- Compiling architecture my_nbitadder of NBitAdder
+# -- Compiling entity Part_A
+# -- Compiling architecture My_Design of Part_A
+# -- Compiling entity Part_B
+# -- Compiling architecture Statements of Part_B
+# -- Compiling entity Part_C
+# -- Compiling architecture Shifts of Part_C
+# -- Compiling entity Part_D
+# -- Compiling architecture Shifts of Part_D
+# -- Compiling entity RAM
+# -- Compiling architecture MyRAM of ram
+# -- Compiling entity MyRegister
+# -- Compiling architecture Reg of MyRegister
+# -- Loading package MATH_REAL
+# -- Compiling entity RegFile
+# -- Compiling architecture Reg of RegFile
+# -- Compiling entity Mux2
+# -- Compiling architecture Dataflow of Mux2
+# -- Compiling entity my_adder
+# -- Compiling architecture a_my_adder of my_adder
+# -- Compiling entity tristate
+# -- Compiling architecture tri of tristate
+# End time: 20:55:03 on Dec 11,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do DecodingCircuit.do
+# vsim 
+# Start time: 20:55:06 on Dec 11,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.decodingcircuit(decoding)
+quit -sim
+# Compile of DecodingCircuit.vhd was successful.
